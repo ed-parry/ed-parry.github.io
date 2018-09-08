@@ -1,24 +1,18 @@
 html{
-    background-color: #555F5C;
+    background-color: #2f3332;
     color: #e6e6e6;
-    
-
-    font-family: 'Crimson Text', serif;
-    font-family: 'Abel', sans-serif;
-    
-font-family: 'Cinzel', serif;
-font-family: 'Dosis', sans-serif;
-
-
+    font-family: 'Dosis', sans-serif;
 }
 
 body{
     margin: 0;
 }
 
-.centered{
-    margin: 0 auto;
-    width: 45%;
+.container{
+    margin: 120px auto;
+    width: 980px;
+    height: 350px;
+    position: relative;
 }
 
 .lead{
@@ -26,79 +20,74 @@ body{
     width: 350px;
 }
 
-.lead .imageContainer{
-    margin: 0 auto;
-    display: block;
+.imageContainer{
+    float: left;
     position: relative;
     width: 350px;
     height: 350px;
     overflow: hidden;
-    box-shadow: #3e3e3e 2px 2px 4px 2px;
-    border-radius: 0 80px 0 80px;
+    box-shadow: #000000 0px 2px 10px 0px;
+    border-radius: 80px 0 0 0;
 }
 
-.lead .imageContainer img{
+.imageContainer img{
     position: absolute;
     width: 100%;    
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 2s ease-in-out;
+    -moz-transition: opacity 2s ease-in-out;
+    -o-transition: opacity 2s ease-in-out;
+    transition: opacity 2s ease-in-out;
 }
 
-.lead .imageContainer img.drawn:hover{
+.imageContainer img.drawn:hover{
     opacity:0;
 }
 
-.lead h1{
-    text-align: right;
+h1{
+    text-align: left;
     font-size: 60px;
     font-weight: 300;
-    margin: 0;
+    display: inline-block;
+    margin: 0 20px;
     text-transform: uppercase;
+    line-height: 50px;
+    font-size: 64px;
 }
 
 .description{
-    margin: 60px auto;
-    text-align: center;
-    font-size: 20.5px;
+    display: inline-block;
+    width: 590px;
+    margin: 45px 20px;
+    font-size: 20px;
 }
 
 .links{
-    margin: 60px auto;
+    display: inline-block;
+    font-size: 20px;
+    width: 590px;
+    margin: 20px 20px 0 20px;
+    position: absolute;
+    bottom: 0;
 }
 
 .links a{
-    width: 32.9%;
     color: #e6e6e6;
     display: inline-block;
-    text-align: center;
     text-decoration: none;
+    border-bottom: 1px solid #2f3332;
 }
-
-/* .links a:first-child{
-    text-align: left;
-}
-
-.links a:last-child{
-    text-align: right;
-} */
 
 .links a:hover{
-    text-decoration: underline;
+    border-bottom: 1px solid #83dfc1;
 }
 
-.quote{
-    display: none;
-    position: absolute;
-    bottom: 40px;
-    width: 100%;
-    text-align: center;
-    font-style: italic;
+.links .separator{
+    margin: 0 20px;
 }
 
 .cursor {
     animation: flash 1s step-start infinite;
+    color: #83dfc1;
 }
   
 @keyframes flash {
