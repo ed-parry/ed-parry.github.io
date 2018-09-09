@@ -34,14 +34,14 @@ module.exports = {
                             // translates CSS into CommonJS
                             loader: 'css-loader',
                             options: {
-                                sourceMap: true
+                                sourceMap: false
                             }
                         },
                         {
                             // Runs compiled CSS through postcss for vendor prefixing
                             loader: 'postcss-loader',
                             options: {
-                                sourceMap: true
+                                sourceMap: false
                             }
                         },
                         {
@@ -49,8 +49,8 @@ module.exports = {
                             loader: 'sass-loader',
                             options: {
                                 outputStyle: 'expanded',
-                                sourceMap: true,
-                                sourceMapContents: true
+                                sourceMap: false,
+                                sourceMapContents: false
                             }
                         }
                     ],
@@ -96,9 +96,9 @@ module.exports = {
 
             // which icons should be generated (see https://github.com/haydenbleasel/favicons#usage)
             icons: {
-                android: true,
-                appleIcon: true,
-                appleStartup: true,
+                android: false,
+                appleIcon: false,
+                appleStartup: false,
                 coast: false,
                 favicons: true,
                 firefox: true,
