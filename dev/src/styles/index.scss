@@ -33,7 +33,7 @@ body{
         -o-transition: opacity 2s ease-in-out;
         transition: opacity 2s ease-in-out;
 
-        .drawn:hover{
+        &.drawn:hover{
             opacity:0;
         }
     }
