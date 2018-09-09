@@ -1,0 +1,13 @@
+$font-stack: 'Dosis', sans-serif;
+
+$containerWidth: 980px;
+$containerHeight: 350px;
+$imageContainerWidth: 350px;
+$imageContainerHeight: $containerHeight;
+
+/* Media Queries */
+$mobileWidth: 349px;
+$desktopWidth: 1001px;
+
+$mobile: #{'screen and (min-width: #{$mobileWidth})'};
+$desktop: #{'screen and (min-width: #{$desktopWidth})'};
