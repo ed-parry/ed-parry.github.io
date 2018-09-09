@@ -9,7 +9,7 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const buildPath = path.resolve(__dirname, '../');
 
 module.exports = {
-    devtool: 'source-map',
+    
     entry: './src/index.js',
     output: {
         filename: '[name].[hash:20].js',
@@ -32,25 +32,17 @@ module.exports = {
                     use: [
                         {
                             // translates CSS into CommonJS
-                            loader: 'css-loader',
-                            options: {
-                                sourceMap: false
-                            }
+                            loader: 'css-loader'
                         },
                         {
                             // Runs compiled CSS through postcss for vendor prefixing
-                            loader: 'postcss-loader',
-                            options: {
-                                sourceMap: false
-                            }
+                            loader: 'postcss-loader'
                         },
                         {
                             // compiles Sass to CSS
                             loader: 'sass-loader',
                             options: {
-                                outputStyle: 'expanded',
-                                sourceMap: false,
-                                sourceMapContents: false
+                                outputStyle: 'expanded'
                             }
                         }
                     ],
@@ -114,9 +106,6 @@ module.exports = {
         new OptimizeCssAssetsPlugin({
             cssProcessor: require('cssnano'),
             cssProcessorOptions: {
-                map: {
-                    inline: false,
-                },
                 discardComments: {
                     removeAll: true
                 }
