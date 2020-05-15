@@ -1,0 +1,182 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "global-fap": {
+            "enabled": true
+        },
+        "global-cfpm": {
+            "enabled": true
+        },
+        "global-can": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
+        "GLOBAL-FAP-8x12-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 25
+        },
+        "GLOBAL-FAP-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 30
+        },
+        "GLOBAL-FAP-16x20-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 35
+        },
+        "GLOBAL-FAP-20x28-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 45
+        },
+        "GLOBAL-FAP-24x36-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 60
+        },
+        "GLOBAL-FAP-28x40-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 65
+        },
+        "GLOBAL-FAP-40x60-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 100
+        },
+        "GLOBAL-CFPM-8x12-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 50
+        },
+        "GLOBAL-CFPM-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 70
+        },
+        "GLOBAL-CFPM-16x20-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 80
+        },
+        "GLOBAL-CFPM-20x28-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 110
+        },
+        "GLOBAL-CFPM-24x36-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 130
+        },
+        "GLOBAL-CFPM-28x40-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 140
+        },
+        "GLOBAL-CAN-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 50
+        },
+        "GLOBAL-CAN-16x20-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 55
+        },
+        "GLOBAL-CAN-20x28-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 70
+        },
+        "GLOBAL-CAN-24x36-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 95
+        },
+        "GLOBAL-CAN-28x40-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 105
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Cheap Thrills Fairground Lights",
+            "user_image_url": "https://www.dropbox.com/s/86ar443wy1lyjaf/0047%20cheap%20thrills%20borderless%2070x100-purple.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "<p>This beautiful photographic print depicts a the slogan \"CHEAP THRILLS\" set over a dark ocean background. Insert some of the neon trend into your home with our range of neon poster artwork.</p>\n<p>• FSC approved or sustainably sourced paper</p>\n<p>• Printed using water based inks</p>\n<p>• Local fulfilment reduces carbon emissions</p>\n<p>• Contains no plastic</p>",
+                    "variants": {
+                        "GLOBAL-FAP-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/z02x1l6ka4u3ru6/0047%20cheapthrills%20lights%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-cfpm": {
+                    "description": "<p>This beautiful photographic print depicts a the slogan \"CHEAP THRILLS\" set over a dark ocean background. Insert some of the neon trend into your home with our range of neon poster artwork.</p>\n<p><strong>Frames</strong></p>\n<p>Created from high-quality wood, milled with simple clean lines and presented with a satin finish. Includes an off-white mount that will not discolour or fade with age. <br><br>For the matted / mounted prints we use a thick 1.4mm window mount cut from premium, textured mountboard. All mounts are \"conservation grade\", FSC certified, 100% acid free, and will not discolour or fade with age. <br><br> • Simple, elegant design<br> • Premium, fine art paper with a gently textured surface<br> • Handmade by specialist picture framers<br> • FSC certified off-white mat / window mount<br> • Delivered ready for hanging</p>",
+                    "variants": {
+                        "GLOBAL-CFPM-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/z02x1l6ka4u3ru6/0047%20cheapthrills%20lights%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-can": {
+                    "description": "<p>This beautiful photographic print depicts a the slogan \"CHEAP THRILLS\" set over a dark ocean background. Insert some of the neon trend into your home with our range of neon poster artwork.</p>\n<p>Each Giclée canvas print is stretched over a made-to-measure wooden frame milled with a curved profile to minimise contact with the face of the canvas and prevent unsightly impression marks and surface cracking. <br><br>The stretched canvas print is then hand finished by one of our experienced canvas framing teams; ensuring each corner fold is perfectly smooth and tight.</p>",
+                    "variants": {
+                        "GLOBAL-CAN-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/z02x1l6ka4u3ru6/0047%20cheapthrills%20lights%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Dine Quote",
+            "user_image_url": "https://www.dropbox.com/s/xcl0mvz2h193wce/00082%20dine%20landscape%20borderless%2070x100.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "<p> This eye-catching typographic slogan print will be sure to put a smile on your guests' faces. Our text based posters feature humorous, thought provoking quote prints.</p>\n<p>These prints look excellent combined with photography or side by side with busier art images, as part of picture walls.</p>\n<p>A premium quality heavyweight (200gsm) fine art print material with a smooth, clean finish. This museum-quality paper is extremely consistent and works perfectly with large, full colour graphics or illustrations. The matte finish emphasises different highlights and tones in the source artworks; helping to create stunning works of art.</p>\n<p>We're also really proud of our eco credentials:</p>\n<p>• FSC approved or sustainably sourced paper</p>\n<p>• Printed using water based inks</p>\n<p>• Local fulfilment reduces carbon emissions</p>\n<p>• Contains no plastic</p>",
+                    "variants": {
+                        "GLOBAL-FAP-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/l3s7f72he6vysna/0082%20dine%20landscape%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-cfpm": {
+                    "description": "<p> This eye-catching typographic slogan print will be sure to put a smile on your guests' faces. Our text based posters feature humorous, thought provoking quote prints.</p>\n<p>These prints look excellent combined with photography or side by side with busier art images, as part of picture walls.</p>\n<p><strong>Frames</strong></p>\n<p>Created from high-quality wood, milled with simple clean lines and presented with a satin finish. Includes an off-white mount that will not discolour or fade with age. <br><br>For the matted / mounted prints we use a thick 1.4mm window mount cut from premium, textured mountboard. All mounts are \"conservation grade\", FSC certified, 100% acid free, and will not discolour or fade with age. <br><br> • Simple, elegant design<br> • Premium, fine art paper with a gently textured surface<br> • Handmade by specialist picture framers<br> • FSC certified off-white mat / window mount<br> • Delivered ready for hanging</p>",
+                    "variants": {
+                        "GLOBAL-CFPM-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/l3s7f72he6vysna/0082%20dine%20landscape%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-can": {
+                    "description": "<p> This eye-catching typographic slogan print will be sure to put a smile on your guests' faces. Our text based posters feature humorous, thought provoking quote prints.</p>\n<p>These prints look excellent combined with photography or side by side with busier art images, as part of picture walls.</p>\n<p>Each Giclée canvas print is stretched over a made-to-measure wooden frame milled with a curved profile to minimise contact with the face of the canvas and prevent unsightly impression marks and surface cracking. <br><br>The stretched canvas print is then hand finished by one of our experienced canvas framing teams; ensuring each corner fold is perfectly smooth and tight.</p>",
+                    "variants": {
+                        "GLOBAL-CAN-16x20-PORTRAIT": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://www.dropbox.com/s/l3s7f72he6vysna/0082%20dine%20landscape%2040x50.jpg?dl=0"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
