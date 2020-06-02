@@ -13,7 +13,7 @@
     "product_ranges": [
         {
             "title": "Baskin Birthday Card",
-            "user_image_url": "https://drive.google.com/uc?export=download&id=1-qfEUHRF6atD_6T6s_olC6AVQKJTvaYC",
+            "user_image_url": "https://drive.google.com/uc?id=1W0X83xNC8FhWsWOn2dZgWJxT1ZS5QyDZ&export=download",
             "products": {
                 "greeting_card": {
                     "description": "",
@@ -21,10 +21,10 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "front": {
-                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1-qfEUHRF6atD_6T6s_olC6AVQKJTvaYC"
+                                    "user_image_url": "https://drive.google.com/uc?id=1W0X83xNC8FhWsWOn2dZgWJxT1ZS5QyDZ&export=download"
                                 },
                                 "back":{
-                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1-qfEUHRF6atD_6T6s_olC6AVQKJTvaYC"
+                                    "user_image_url": "https://drive.google.com/uc?id=1W0X83xNC8FhWsWOn2dZgWJxT1ZS5QyDZ&export=download"
                                 }
                             }
                         }
