@@ -598,7 +598,7 @@
         },
         {
             "title": "Ohhh My God! Can’t Believe It! Farther’s Day Card ",
-            "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/28.png",
+            "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/28.PNG",
             "products": {
                 "greeting_card": {
                     "description": "",
@@ -606,7 +606,7 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "front": {
-                                    "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/28.png"
+                                    "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/28.PNG"
                                 },
                                 "back": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKBACK/BACK.jpg"
