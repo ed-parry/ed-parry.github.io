@@ -36,7 +36,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/1.jpg"
@@ -57,7 +57,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/2.jpg"
@@ -78,7 +78,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/3.jpg"
@@ -99,7 +99,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/4.jpg"
@@ -120,7 +120,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/5.jpg"
@@ -141,7 +141,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/6.jpg"
@@ -162,7 +162,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/7.jpg"
@@ -183,7 +183,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/8.jpg"
@@ -204,7 +204,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/9.jpg"
@@ -225,7 +225,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/10.jpg"
@@ -246,7 +246,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/11.jpg"
@@ -267,7 +267,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/12.jpg"
@@ -288,7 +288,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/13.PNG"
@@ -309,7 +309,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/14.jpg"
@@ -330,7 +330,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/15.png"
@@ -351,7 +351,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/16.png"
@@ -372,7 +372,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/17.png"
@@ -393,7 +393,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/18.jpg"
@@ -414,7 +414,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/19.png"
@@ -435,7 +435,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/20.png"
@@ -456,7 +456,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/21.png"
@@ -477,7 +477,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/22.png"
@@ -498,7 +498,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/23.PNG"
@@ -519,7 +519,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/24.PNG"
@@ -540,7 +540,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/25.png"
@@ -561,7 +561,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/26.png"
@@ -582,7 +582,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/27.png"
@@ -603,7 +603,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/28.PNG"
@@ -624,7 +624,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/29.png"
@@ -645,7 +645,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/30.PNG"
@@ -666,7 +666,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/31.png"
@@ -687,7 +687,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/32.png"
@@ -708,7 +708,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/33.png"
@@ -729,7 +729,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/34.png"
@@ -750,7 +750,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/35.png"
@@ -771,7 +771,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/36.png"
@@ -792,7 +792,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/37.PNG"
@@ -813,7 +813,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/38.jpg"
@@ -834,7 +834,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/39.PNG"
@@ -855,7 +855,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/40.PNG"
@@ -876,7 +876,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/41.PNG"
@@ -897,7 +897,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/42.PNG"
@@ -918,7 +918,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/43.PNG"
@@ -939,7 +939,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/44.PNG"
@@ -960,7 +960,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/45.PNG"
@@ -981,7 +981,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/46.png"
@@ -1002,7 +1002,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/47.PNG"
@@ -1023,7 +1023,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/48.PNG"
@@ -1044,7 +1044,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/49.PNG"
@@ -1065,7 +1065,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/50.png"
@@ -1086,7 +1086,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/51.PNG"
@@ -1107,7 +1107,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/52.PNG"
@@ -1128,7 +1128,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/53.PNG"
@@ -1149,7 +1149,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/54.png"
@@ -1170,7 +1170,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/55.PNG"
@@ -1191,7 +1191,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/56.PNG"
@@ -1212,7 +1212,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/57.PNG"
@@ -1233,7 +1233,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/58.PNG"
@@ -1254,7 +1254,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/59.PNG"
@@ -1275,7 +1275,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/60.PNG"
@@ -1296,7 +1296,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/61.PNG"
@@ -1317,7 +1317,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/62.png"
@@ -1338,7 +1338,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/63.PNG"
@@ -1359,7 +1359,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/64.png"
@@ -1380,7 +1380,7 @@
                 "greeting_card": {
                     "description": "",
                     "variants": {
-                        "greeting_cards_7x5": {
+                        "greeting_cards_a5": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/go/dev/BKFRONT/65.PNG"
