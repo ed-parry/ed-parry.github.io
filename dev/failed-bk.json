@@ -1,0 +1,21 @@
+{
+    "title": "Happy Farther’s Day, You Bumder",
+    "user_image_url": "https://drive.google.com/uc?id=1DpCoFPrISgMwD0WiLJFdV_ot-3tQyncp&export=download",
+    "products": {
+        "greeting_card": {
+            "description": "",
+            "variants": {
+                "greeting_cards_a5": {
+                    "images": {
+                        "front": {
+                            "user_image_url": "https://drive.google.com/uc?id=1DpCoFPrISgMwD0WiLJFdV_ot-3tQyncp&export=download"
+                        },
+                        "back": {
+                            "user_image_url": "https://drive.google.com/uc?id=1yP6H4-U9LTQ7yCzWr9mjwTo9VsVKBKUh&export=download"
+                        }
+                    }
+                }
+            }
+        }
+    }
+},
