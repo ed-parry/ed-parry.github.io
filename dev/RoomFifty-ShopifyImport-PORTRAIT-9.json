@@ -1,0 +1,919 @@
+{
+    "product_range_defaults": {
+        "published": false
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "global-fap": {
+            "enabled": true
+        },
+        "global-cfp": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
+        "GLOBAL-FAP-6x8-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 20
+        },
+        "GLOBAL-FAP-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 40
+        },
+        "GLOBAL-FAP-18x24-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 60
+        },
+        "GLOBAL-FAP-24x32-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 80
+        },
+        "GLOBAL-CFP-6x8-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 35
+        },
+        "GLOBAL-CFP-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 65
+        },
+        "GLOBAL-CFP-18x24-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 95
+        },
+        "GLOBAL-CFP-24x32-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 125
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Roberto Blefari | Cactus",
+            "user_image_url": "https://www.dropbox.com/s/ml932fhr318dstv/Hikimi_Cactus%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Eco Lovers He",
+            "user_image_url": "https://www.dropbox.com/s/zg8y738rss9sake/hikimi_eco_lovers-he.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Eco Lovers She",
+            "user_image_url": "https://www.dropbox.com/s/xr6cnyhywrlay0g/hikimi_eco_lovers-she.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Future is Here",
+            "user_image_url": "https://www.dropbox.com/s/rq7y4tzoegyy48f/Hikimi_FutureIsHere%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Head in the Clouds",
+            "user_image_url": "https://www.dropbox.com/s/ght2ki1f6y2k7fj/Head-in-clouds_RhB_24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Hope",
+            "user_image_url": "https://www.dropbox.com/s/wi4k5igum0lkg7u/hikimi_hope_24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roberto Blefari | Shapes-Hugs",
+            "user_image_url": "https://www.dropbox.com/s/gdgur4w1bxs4tei/hikimi_shapes-hugs.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | A Portrait of the Artist as a Young Man",
+            "user_image_url": "https://www.dropbox.com/s/tlr87qw1jzryhc0/portrait-A2_200dpi.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Cat Trumpet",
+            "user_image_url": "https://www.dropbox.com/s/s75n4fk4hjbiik5/cat-trumpet-a2%20%281%29.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Lion",
+            "user_image_url": "https://www.dropbox.com/s/3vku4px5mmdvw89/Edited%20r50-lion-24-32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Net Profits",
+            "user_image_url": "https://www.dropbox.com/s/vo73siwkcxgjikq/A1.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Shade",
+            "user_image_url": "https://www.dropbox.com/s/c2m53m7urpen0wl/shade-A2_200dpi.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Sisters",
+            "user_image_url": "https://www.dropbox.com/s/0mvaqgdlmuuaa42/sisters-A2_200dpi.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Roman Muradov | Sleep Spells",
+            "user_image_url": "https://www.dropbox.com/s/ergg3yr24rsgp1c/sleepspellprint.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Rozalina Burkova | Kiss",
+            "user_image_url": "https://www.dropbox.com/s/s40deuulp8x9vry/RoomFifty_Rozalina%20Burkova_Kiss_24x32inch.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Rozalina Burkova | Moods",
+            "user_image_url": "https://www.dropbox.com/s/xf5u8hjzw0crv1i/trimmed%20R50_x_RB_Season7.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Ryan Carl | Circles and Stripes",
+            "user_image_url": "https://www.dropbox.com/s/jaq90jznd1zxaft/circles-and-stripes_final.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Ryan Carl | Stack of Stripes",
+            "user_image_url": "https://www.dropbox.com/s/9rfqoala74ynnbu/RGB%20stack-of-stripes_24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Ryan Gillett | Sunshine",
+            "user_image_url": "https://www.dropbox.com/s/2th19cr4mpzc3ex/RoomFifty_RG1.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Bristol Comedy Garden",
+            "user_image_url": "https://www.dropbox.com/s/ve99ie4mr7b1dfq/32X24%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Dogs",
+            "user_image_url": "https://www.dropbox.com/s/qq07nzfo1gh2u0t/sarah_mazzetti_dogs%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Dr Strangelove",
+            "user_image_url": "https://www.dropbox.com/s/kxnuoln0il4sgxa/32x24.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Hey You",
+            "user_image_url": "https://www.dropbox.com/s/8nba01h0iu2sfk9/sarah_mazzetti_heyyou%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Lemonade",
+            "user_image_url": "https://www.dropbox.com/s/zmk6q2b6b6qbu07/lemonade.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Lion",
+            "user_image_url": "https://www.dropbox.com/s/rk4igm6ribtws37/sarah_mazzetti_lion.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Mozart",
+            "user_image_url": "https://www.dropbox.com/s/ezulmludzf6ndmx/sarah_mazzetti_mozart.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Outdoors",
+            "user_image_url": "https://www.dropbox.com/s/w9lw0hqhdn43peu/sarah_mazzetti_outdoors%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sarah Mazzetti | Plants",
+            "user_image_url": "https://www.dropbox.com/s/i88d24asco6li21/sarah_mazzetti_plants.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Seb Agresti | Affair",
+            "user_image_url": "https://www.dropbox.com/s/kdn1jq0bq0awk4l/RoomFifty_Affair_SebAgresti.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Seb Agresti | Falling",
+            "user_image_url": "https://www.dropbox.com/s/mk5mr2s3bqj7xvy/RoomFifty_Falling_SebAgresti.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Seb Agresti | Lover",
+            "user_image_url": "https://www.dropbox.com/s/34ijs6v4dr3yrdg/RoomFifty_Lover_SebAgresti.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Seiko Kato | Moon",
+            "user_image_url": "https://www.dropbox.com/s/kf0yp5wk8r0kcy1/Moon.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Seiko Kato | Sekirantou",
+            "user_image_url": "https://www.dropbox.com/s/52i63zkdhf591ov/SeikoKato24x32%22.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sergiy Maidukov | November in Kyiv",
+            "user_image_url": "https://www.dropbox.com/s/ofulrg08mh8t580/room_50_maidukov_01.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sergiy Maidukov | Stay",
+            "user_image_url": "https://www.dropbox.com/s/t3mgh5bm0v5b2m5/room50_7_maidukov_HR.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Simone Massoni | Lock Free",
+            "user_image_url": "https://www.dropbox.com/s/hj2zy8rbk0u0a21/SMassoni_Lock-Free_24x32.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Are You Up",
+            "user_image_url": "https://www.dropbox.com/s/a266nmpg2mksmaq/stephen_maurice_graham_are%20you%20up.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Beep Beep",
+            "user_image_url": "https://www.dropbox.com/s/pibi33djkdvxgqp/Stephen_Maurice_Graham_beep_beep%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Bin Day",
+            "user_image_url": "https://www.dropbox.com/s/awbb0y89kxg53jg/Stephen_Maurice_Graham_Bin_Day%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Cat Chat",
+            "user_image_url": "https://www.dropbox.com/s/c0q91furfyx41sm/stephen_maurice_graham_cat_chat.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Item Shop",
+            "user_image_url": "https://www.dropbox.com/s/t7d5lr6y8oghxdj/ARTIST_Stephen_Maurice_Graham_TITLE_Item_Shop.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Mana Dealer",
+            "user_image_url": "https://www.dropbox.com/s/6160a2lv09igsyu/ARTIST_Stephen_Maurice_Graham_TITLE_Mana_Dealer.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Urban Anxiety",
+            "user_image_url": "https://www.dropbox.com/s/pxmc0vlb4qaquxm/Stephen_Maurice_Graham_Urban_Anxiety%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sue Doeksen | Scape 01",
+            "user_image_url": "https://www.dropbox.com/s/8xxs4f7kx1e660d/sue%20doeksen%20scape-01.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sue Doeksen | Scape 02",
+            "user_image_url": "https://www.dropbox.com/s/hpr74fbgox6ksu6/sue%20doeksen%20scape-02.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Sue Doeksen | Scape 03",
+            "user_image_url": "https://www.dropbox.com/s/kwpvz28hmk9vuyd/sue%20doeksen%20scape-03.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Teresa Sdralevich | Best Friend",
+            "user_image_url": "https://www.dropbox.com/s/lhbaj0gdcvmew4g/bestfriend.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Teresa Sdralevich | Ideas",
+            "user_image_url": "https://www.dropbox.com/s/jzeekfoeowetoos/teresa_sdralevich_ideas.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Teresa Sdralevich | The Questions",
+            "user_image_url": "https://www.dropbox.com/s/dfijznfmlrg9jwv/teresa_sdralevich_thequestions.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Tess Smith-Roberts | Boogie Wonderland",
+            "user_image_url": "https://www.dropbox.com/s/7hf4ajbthi3tj3f/24x32%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Tess Smith-Roberts | Night Driving",
+            "user_image_url": "https://www.dropbox.com/s/43amf2mked8v3si/24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | 2 Right",
+            "user_image_url": "https://www.dropbox.com/s/fcq7f4sa2e5c74w/TS_LTL_Print_2_A2_RGB.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | ACTORBET-A",
+            "user_image_url": "https://www.dropbox.com/s/orsa3470ix2ij4d/ACTORBET-A-A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | ACTORBET-A-Z",
+            "user_image_url": "https://www.dropbox.com/s/mlibvaq6amcicrm/ACTORBET-A-Z-A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | ACTORBET-W",
+            "user_image_url": "https://www.dropbox.com/s/h26m42n6hoeupj9/ACTORBET-W-A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | B Kind",
+            "user_image_url": "https://www.dropbox.com/s/8u23s6nnroa41vx/TS_LTL_Print_1_A2_RGB.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Big Cock",
+            "user_image_url": "https://www.dropbox.com/s/k077my77y4t3ntq/Timba_Smits_BIGCOCK_A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Cute Ass",
+            "user_image_url": "https://www.dropbox.com/s/iplc1hmbvujs78j/Timba_Smits_CUTEASS_A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Fuckin' A",
+            "user_image_url": "https://www.dropbox.com/s/m7nbuxk4npa9rcn/TS_LTL_Print_3_A2_RGB.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Full Metal Jacket",
+            "user_image_url": "https://www.dropbox.com/s/yhupt3oh1qcmd7q/TS-RF-KUBRICK-FMJ-32X24.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Great Tits",
+            "user_image_url": "https://www.dropbox.com/s/vfjn8cr49zksf4k/Timba_Smits_GREATTITS_A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timba Smits | Kindergarten Cop",
+            "user_image_url": "https://www.dropbox.com/s/vttwjfqddhj5ocr/Timba_Smits_RoomFifty_Kindergarten_Cop.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timo Kuilder | Lazy Hazy",
+            "user_image_url": "https://www.dropbox.com/s/av1kmp61h68dufh/lazyhazy-24x32inch-timokuilder.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Timo Kuilder | Solid Ground",
+            "user_image_url": "https://www.dropbox.com/s/fq77mibd6wp2dyq/roomfifty-solidground-timokuilder.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Waldemar Stepien | Monotomia",
+            "user_image_url": "https://www.dropbox.com/s/9aa85plhkktl5gd/Monotomia.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Wijtze Valkema | Folks",
+            "user_image_url": "https://www.dropbox.com/s/ya36ppxw6vt9fei/wijtze_valkema_folks%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Wijtze Valkema | Pirate",
+            "user_image_url": "https://www.dropbox.com/s/rjghsmtwm884m4x/wijtze_valkema_pirate.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "Wijtze Valkema | Play",
+            "user_image_url": "https://www.dropbox.com/s/k0awmag7clg3c0g/wijtze_valkema_play2.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "William Luz | Pond",
+            "user_image_url": "https://www.dropbox.com/s/jful1htvjqll89w/Pond-24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "William Luz | The Day",
+            "user_image_url": "https://www.dropbox.com/s/d89f06kkry26vow/William_Luz_The_Day_A1.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "William Luz | The Grub",
+            "user_image_url": "https://www.dropbox.com/s/ab7nc4hypnk6vju/William_Luz_The_Grub_A1.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        },
+        {
+            "title": "William Luz | The View",
+            "user_image_url": "https://www.dropbox.com/s/8vyd7x6wgi42a2z/William_Luz_The_View_A1.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "New import"
+                },
+                "global-cfp": {
+                    "description": "New import"
+                }
+            }
+        }
+    ]
+}
