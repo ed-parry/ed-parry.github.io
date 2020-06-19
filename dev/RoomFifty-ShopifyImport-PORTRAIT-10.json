@@ -51,18 +51,7 @@
         }
     },
     "product_ranges": [
-        {
-            "title": "Roberto Blefari | Cactus",
-            "user_image_url": "https://www.dropbox.com/s/ml932fhr318dstv/Hikimi_Cactus%20copy.tif?dl=0",
-            "products": {
-                "global-fap": {
-                    "description": "New import"
-                },
-                "global-cfp": {
-                    "description": "New import"
-                }
-            }
-        },
+        
         {
             "title": "Roberto Blefari | Eco Lovers He",
             "user_image_url": "https://www.dropbox.com/s/zg8y738rss9sake/hikimi_eco_lovers-he.jpg?dl=0",
@@ -78,18 +67,6 @@
         {
             "title": "Roberto Blefari | Eco Lovers She",
             "user_image_url": "https://www.dropbox.com/s/xr6cnyhywrlay0g/hikimi_eco_lovers-she.jpg?dl=0",
-            "products": {
-                "global-fap": {
-                    "description": "New import"
-                },
-                "global-cfp": {
-                    "description": "New import"
-                }
-            }
-        },
-        {
-            "title": "Roberto Blefari | Future is Here",
-            "user_image_url": "https://www.dropbox.com/s/rq7y4tzoegyy48f/Hikimi_FutureIsHere%20copy.tif?dl=0",
             "products": {
                 "global-fap": {
                     "description": "New import"
