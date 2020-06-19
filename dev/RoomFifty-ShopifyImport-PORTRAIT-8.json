@@ -52,42 +52,6 @@
     },
     "product_ranges": [
         {
-            "title": "Louise Rosenkrands | Plant",
-            "user_image_url": "https://www.dropbox.com/s/7v0krr47j4mw9pw/louise_rosenkrands_plant_Roomfifty_s3.jpg?dl=0",
-            "products": {
-                "global-fap": {
-                    "description": "New import"
-                },
-                "global-cfp": {
-                    "description": "New import"
-                }
-            }
-        },
-        {
-            "title": "Louise Rosenkrands | Sorceress",
-            "user_image_url": "https://www.dropbox.com/s/2szk995r3swhyk5/roomfifty_louiserosenkrands_s5_sorceress_A1.jpg?dl=0",
-            "products": {
-                "global-fap": {
-                    "description": "New import"
-                },
-                "global-cfp": {
-                    "description": "New import"
-                }
-            }
-        },
-        {
-            "title": "Louise Rosenkrands | Vases",
-            "user_image_url": "https://www.dropbox.com/s/qgk52i70olfiu76/Louise_Rosenkrands_vases_A1.tif?dl=0",
-            "products": {
-                "global-fap": {
-                    "description": "New import"
-                },
-                "global-cfp": {
-                    "description": "New import"
-                }
-            }
-        },
-        {
             "title": "Louise Rosenkrands | Woman",
             "user_image_url": "https://www.dropbox.com/s/2ym046a9inkdkuz/Louise_Rosenkrands_woman_A1.jpg?dl=0",
             "products": {
