@@ -14,7 +14,14 @@
         }
     },
     "variant_defaults": {
-        "enabled": false
+        "enabled": false,
+        "images": {
+            "front": {
+                "image_arguments": {
+                    "scale": 0.9
+                }
+            }
+        }
     },
     "variants_defaults": {
         "GLOBAL-FAP-6x8-LANDSCAPE": {
