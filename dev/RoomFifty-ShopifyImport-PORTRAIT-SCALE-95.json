@@ -1,0 +1,362 @@
+{
+    "product_range_defaults": {
+        "published": false
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "global-fap": {
+            "enabled": true
+        },
+        "global-cfp": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false,
+        "images": {
+            "front": {
+                "image_arguments": {
+                    "scale": 0.95
+                }
+            }
+        }
+    },
+    "variants_defaults": {
+        "GLOBAL-FAP-6x8-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 20
+        },
+        "GLOBAL-FAP-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 40
+        },
+        "GLOBAL-FAP-18x24-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 60
+        },
+        "GLOBAL-FAP-24x32-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 80
+        },
+        "GLOBAL-CFP-6x8-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 35
+        },
+        "GLOBAL-CFP-12x16-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 65
+        },
+        "GLOBAL-CFP-18x24-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 95
+        },
+        "GLOBAL-CFP-24x32-PORTRAIT": {
+            "enabled": true,
+            "retail_price": 125
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "David J McMillan | Kitchen Nightmares",
+            "user_image_url": "https://www.dropbox.com/s/4olse9bzix8un24/DavidJMcMillan-S6-Kitchen-Nightmates-Final.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "David J McMillan | Rise and Grind",
+            "user_image_url": "https://www.dropbox.com/s/wvvysrmw8u3jvx6/DavidMcMillan-S7-RiseAndGrind.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Hannah-Michelle Bayley | David Bowie",
+            "user_image_url": "https://www.dropbox.com/s/b76xc3v3ofusgnd/24X32_Hannah_Michelle_David_Bowie.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "James Daw | Plants",
+            "user_image_url": "https://www.dropbox.com/s/fv5b4mtmn57l3wk/ROOM%20FIFTY%20plant%20print.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jango Jim | Nature Calls",
+            "user_image_url": "https://www.dropbox.com/s/filcqlcoi3bub5p/nature%20calls_A2_by%20jangojim.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jango Jim | Woke Up Like This",
+            "user_image_url": "https://www.dropbox.com/s/pj7s1s0c4rqpytw/WOKE%20UP%20LIKE%20THIS_BY%20JANGOJIM_1300.png?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jasper Van Gestel | Cats",
+            "user_image_url": "https://www.dropbox.com/s/ncviv2rzec0j1dt/ROOMFIFTY_S5_Jaspervangestel_24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jasper Van Gestel | Networking",
+            "user_image_url": "https://www.dropbox.com/s/t149vd2y8k4rnij/Jasper_van_gestel_networking.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jasper Van Gestel | Spirit Animal",
+            "user_image_url": "https://www.dropbox.com/s/ijo3rz4k2mrifoz/Jasper_van_gestel_spirit_animal.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jordan Awan | Smoker One",
+            "user_image_url": "https://www.dropbox.com/s/5ki90x704flv3cd/jordan_awan_smoker_one%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jordan Awan | Smoker Three",
+            "user_image_url": "https://www.dropbox.com/s/djcgxes7mt6uc64/jordan_awan_smoker_three%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Jordan Awan | Smoker Two",
+            "user_image_url": "https://www.dropbox.com/s/do7linkrk7svpkh/jordan_awan_smoker_two%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Joren Joshua | Sneezer",
+            "user_image_url": "https://www.dropbox.com/s/pv8pxwekgpje0ed/Joren_Joshua_sneezer%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Josh Cochran | Don't Act Like your Heart isn't Hard",
+            "user_image_url": "https://www.dropbox.com/s/ktwdo71hoohct73/Josh_Cochran_DontActLikeYourHeartIsntHardr_A2.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Leon Edler | Does New York Make You an Asshole?",
+            "user_image_url": "https://www.dropbox.com/s/y7gg5ohdhdx8uff/Leon%20Edler_New%20York.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Linzie Hunter | Beast-Spectacled",
+            "user_image_url": "https://www.dropbox.com/s/xgtsgpk0243dg88/1.%20Linzie%20Hunter%20-%20Beast-Spectacled%20-%20A2.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Linzie Hunter | Fish or Foe",
+            "user_image_url": "https://www.dropbox.com/s/7qafpb2oaa5n2nl/1.linziehunter-Fish-or-Foe-A2.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Marcellus Hall | Autumn",
+            "user_image_url": "https://www.dropbox.com/s/ksccm3c0s73clyu/MHall_RM50season4_Autumn24x32.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Marcellus Hall | Bowery Mother",
+            "user_image_url": "https://www.dropbox.com/s/x3uqtvivmnz93ft/Marcellus_Hall_BoweryMother%20copy.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Merijn Hos | 1",
+            "user_image_url": "https://www.dropbox.com/s/ja211u9eh3do44m/001.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Merijn Hos | 2",
+            "user_image_url": "https://www.dropbox.com/s/9yypl2zruolnwfo/002.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Merijn Hos | 3",
+            "user_image_url": "https://www.dropbox.com/s/31gnd36pk96ch3o/003.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Molly Fairhurst | Foxes",
+            "user_image_url": "https://www.dropbox.com/s/ulam5pckue5swn5/mf%20roomfifty%20season%206%20resized.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Nishant Choksi | Bacon & Eggs",
+            "user_image_url": "https://www.dropbox.com/s/giny6jryt7szn20/nishant_choksi_baconandeggs.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        },
+        {
+            "title": "Stephen Maurice Graham | Urban Anxiety",
+            "user_image_url": "https://www.dropbox.com/s/pxmc0vlb4qaquxm/Stephen_Maurice_Graham_Urban_Anxiety%20copy.tif?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "Newimport"
+                },
+                "global-cfp": {
+                    "description": "Newimport"
+                }
+            }
+        }
+    ]
+}
