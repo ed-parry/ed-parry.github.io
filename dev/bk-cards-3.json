@@ -11,6 +11,9 @@
         }
     },
     "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
         "greeting_cards_7x5": {
             "enabled": true,
             "retail_price": 3.70
@@ -156,7 +159,7 @@
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-QUARANTINE-CARDS/7.jpg"
                                 },
                                 "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-QUARANTINE-CARDS/7.jpg-back.jpg"
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-QUARANTINE-CARDS/7-back.jpg"
                                 }
                             }
                         }
