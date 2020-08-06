@@ -2,30 +2,18 @@
     "product_range_defaults": {
         "published": false
     },
-    "product_default": {
+    "product_defaults": {
         "enabled": false
     },
-    "products_default": {
+    "products_defaults": {
         "greeting_card": {
             "enabled": true
         }
     },
-    "variants_defaults": {
-        "greeting_cards_a5": {
-            "enabled": false,
-            "retail_price": 3.70
-        },
-        "greeting_cards_a5_10pack": {
-            "enabled": false,
-            "retail_price": 35.00
-        },
+    "variant_defaults": {
         "greeting_cards_7x5": {
             "enabled": true,
             "retail_price": 3.70
-        },
-        "greeting_cards_7x5_10pack": {
-            "enabled": false,
-            "retail_price": 35.00
         }
     },
     "product_ranges": [
