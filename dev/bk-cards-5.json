@@ -463,7 +463,7 @@
         },
         {
             "title": "HAPPY BIRTHDAY FROM ME TO YOU! CARD",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/4.jpg",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/4.png",
             "products": {
                 "greeting_card": {
                     "description": "",
@@ -471,10 +471,10 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/4.jpg"
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/4.png"
                                 },
                                 "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back-4.jpg"
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back-4.png"
                                 }
                             }
                         }
@@ -505,7 +505,7 @@
         },
         {
             "title": "IS YOUR DAD REALLY YOUR DAD CARD",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/9.jpg",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/9.png",
             "products": {
                 "greeting_card": {
                     "description": "",
@@ -513,7 +513,7 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/9.jpg"
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/9.png"
                                 },
                                 "back": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
@@ -547,7 +547,7 @@
         },
         {
             "title": "PRAIIISEEE THE LORD IT'S YOUR BIRTHDAY! CARD",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/12.jpg",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/12.png",
             "products": {
                 "greeting_card": {
                     "description": "",
@@ -555,7 +555,7 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/12.jpg"
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/12.png"
                                 },
                                 "back": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
@@ -577,69 +577,6 @@
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/13.jpg"
-                                },
-                                "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "title": "Pubs open birthday card ",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/26.jpg",
-            "products": {
-                "greeting_card": {
-                    "description": "",
-                    "variants": {
-                        "greeting_cards_7x5": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/26.jpg"
-                                },
-                                "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "title": "Bojo birthday card ",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/27.jpg",
-            "products": {
-                "greeting_card": {
-                    "description": "",
-                    "variants": {
-                        "greeting_cards_7x5": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/27.jpg"
-                                },
-                                "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "title": "you can out not out birthday card ",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/28.jpg",
-            "products": {
-                "greeting_card": {
-                    "description": "",
-                    "variants": {
-                        "greeting_cards_7x5": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/28.jpg"
                                 },
                                 "back": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK-BIRTHDAY-CARDS/back.jpg"
