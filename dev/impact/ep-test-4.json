@@ -19,7 +19,7 @@
         "images": {
             "front": {
                 "image_arguments": {
-                    "scale": 0.25
+                    "scale": 0.75
                 }
             }
         }
