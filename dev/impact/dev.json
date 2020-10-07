@@ -1,0 +1,517 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "bc3001_tshirt_short_sleeve_uk": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false,
+        "retail_price": 20,
+        "images": {
+            "front": {
+                "image_arguments": {
+                    "scale": 0.75
+                }
+            }
+        }
+    },
+    "variants_defaults": {
+        "bc3001_tshirt_short_sleeve_uk/s,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/m,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/l,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/xl,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/2xl,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/3xl,black": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/s,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/m,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/l,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/xl,true_royal": {
+            "enabled": true
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Bound For Glory 2020 - Willie Mack",
+            "user_image_url": "https://drive.google.com/file/d/1ZZsqKtlVKa-_hWE6JKDvvX8g1RBIBc8Y/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Trey",
+            "user_image_url": "https://drive.google.com/file/d/1vLsgAHZHBwgsPtdpdpsJ_VkbTxt2mU5h/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - TJP",
+            "user_image_url": "https://drive.google.com/file/d/1QdtgmMf6Wp-6Xja9XJb9Oo6oqnMMdDl4/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Tenille",
+            "user_image_url": "https://drive.google.com/file/d/1oP6-wK7sT3t578uDZJeBJ9jXgdkPUrmr/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Swinger",
+            "user_image_url": "https://drive.google.com/file/d/1YL_lGFTXrl6OWvy_67yRArrLBais6Js9/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Swann",
+            "user_image_url": "https://drive.google.com/file/d/1n9RNQsia1ZfoUzFPw0MPHfBr3r9PyqVO/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Susie",
+            "user_image_url": "https://drive.google.com/file/d/19dc04OdpZjoRzKeTrRI2FTUjjxOUIqNH/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Ken Shamrock",
+            "user_image_url": "https://drive.google.com/file/d/129pVen_emD8TbhraqRIvi3QCawZgPcYE/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Sami Callihan",
+            "user_image_url": "https://drive.google.com/file/d/15SZL5gma6MNqM_TRUOYwAOMVKcMPWchJ/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Rosemary/Taya/Bravo",
+            "user_image_url": "https://drive.google.com/file/d/1Mi9jlF6yZYuSJs3vtxZWtAqpdx_qBqLF/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Rohit",
+            "user_image_url": "https://drive.google.com/file/d/1MAetalKKlXJpMWcDKQZjzxmVo9oX2iX8/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Reno Scum",
+            "user_image_url": "https://drive.google.com/file/d/1SiTciG8J0apd3HDqJOY3WYPXF1KNczFb/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Rascalz",
+            "user_image_url": "https://drive.google.com/file/d/1BnaOdIIBGY3pOFaBtRCkst3OuTFjSgzo/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Event w/Date",
+            "user_image_url": "https://drive.google.com/file/d/10S4Atun_uIA6_ajjKELN6ygtKDQQAanA/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Event",
+            "user_image_url": "https://drive.google.com/file/d/1Lh3iV_lvOpvAMqhSX9ya-u6AK8bl-Nsr/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - The North",
+            "user_image_url": "https://drive.google.com/file/d/19DKHVV8JiyWjwgVodvOi6H2YgtZqWJWN/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Neveah/Havok",
+            "user_image_url": "https://drive.google.com/file/d/1G1BvrwOjmQf6OUS1CgHJzwntk71xMhDF/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Brian Myers",
+            "user_image_url": "https://drive.google.com/file/d/1VLB8QtJxwgi3UDSIrzmhNVXxntdNznQW/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Moose",
+            "user_image_url": "https://drive.google.com/file/d/1xHBIHqHe6QSPZPwtGVvs2SVAnWbcuh9P/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - MCMG",
+            "user_image_url": "https://drive.google.com/file/d/1lE65U78e1wOBXMY_ikDUeOIkwXgyfN_Z/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Madison",
+            "user_image_url": "https://drive.google.com/file/d/127diuNq-wKQ-ZjKAMu0XJTKp-vgBfhaM/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Logo",
+            "user_image_url": "https://drive.google.com/file/d/1SscXvEgv7F7fBAjFJYfRPAIOYngRPTyy/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Kylie Rae",
+            "user_image_url": "https://drive.google.com/file/d/1da4mJM6f_OzfBdyvGEdVTivoAmpChHbi/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Kimber Lee",
+            "user_image_url": "https://drive.google.com/file/d/1PwZk7ZodV1S8xlQVc4zhk2uQjEHpbMWW/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Kiera/Tasha",
+            "user_image_url": "https://drive.google.com/file/d/1okXlHEOWgOzCFb-esiz1S37LOyuULGo3/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Jordynne",
+            "user_image_url": "https://drive.google.com/file/d/1oWykOfvBOy-g7AjFV5jc5gw2DgEyRYtp/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Hernandez",
+            "user_image_url": "https://drive.google.com/file/d/1ayVdeK9SS632Ex7YCf3g3zxRwTJOywPg/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Heath/Rhino",
+            "user_image_url": "https://drive.google.com/file/d/1gEWQWZkSKieSE674wtXfUGA-Ri97V9si/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - The Good Brothers",
+            "user_image_url": "https://drive.google.com/file/d/1qwel_8UqPdDLumVrPl4ywHPRYbl825Y4/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Fulton/Ace",
+            "user_image_url": "https://drive.google.com/file/d/1A6Rmq6MZYUkh-8G_4VZgm50Y_Lwj_c6y/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Fallah Bahh",
+            "user_image_url": "https://drive.google.com/file/d/1hWgw-gS1z6nIZvbVW5D8Sis92UxMY8ya/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Eddie Edwards",
+            "user_image_url": "https://drive.google.com/file/d/1DKBbY8776E-oRxlAsfusAWTMXQ3atPu9/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Tommy Dreamer",
+            "user_image_url": "https://drive.google.com/file/d/1vbd3ZRIJHDaVdDz5G8Tdz6BTfqOiHSw3/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Deonna",
+            "user_image_url": "https://drive.google.com/file/d/1LKhi0FuIgqEFf00DaEpzhy_aqLGBNjQU/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Deaners",
+            "user_image_url": "https://drive.google.com/file/d/1ypYicSWhXvgtXrkz_BXnfo2t5fkfC4_X/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Crazzy Steve",
+            "user_image_url": "https://drive.google.com/file/d/1KcdHG9-9A6URKOGuyTl8GqL75VeMlZ2b/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Bey",
+            "user_image_url": "https://drive.google.com/file/d/1S21125Gz_9yIlxFwMjXOpQyErzfFcm3h/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        },
+        {
+            "title": "Bound For Glory 2020 - Alisha",
+            "user_image_url": "https://drive.google.com/file/d/1jm4RVte1Hz5NeLQ1rt1tdhRmB2pIZeOT/view?usp=sharing",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        }
+    ]
+}

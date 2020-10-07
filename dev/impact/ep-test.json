@@ -1,0 +1,73 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "bc3001_tshirt_short_sleeve_uk": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false,
+        "retail_price": 20,
+        "images": {
+            "front": {
+                "image_arguments": {
+                    "scale": 0.75
+                }
+            }
+        }
+    },
+    "variants_defaults": {
+        "bc3001_tshirt_short_sleeve_uk/s,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/m,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/l,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/xl,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/2xl,black": {
+            "enabled": true
+        },
+        "bc3001_tshirt_short_sleeve_uk/3xl,black": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/s,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/m,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/l,true_royal": {
+            "enabled": true
+        },
+        "bc6004_womens_tshirt_uk/xl,true_royal": {
+            "enabled": true
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Bound For Glory 2020 - Willie Mack",
+            "user_image_url": "https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/befbcde0-9b36-11e6-95b9-00163ed833e7/260663710/the-test-fun-for-friends-screenshot.jpg",
+            "products": {
+                "bc3001_tshirt_short_sleeve_uk": {
+                    "description": ""
+                },
+                "bc6004_womens_tshirt_uk": {
+                    "description": ""
+                }
+            }
+        }
+    ]
+}
