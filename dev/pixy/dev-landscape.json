@@ -1,0 +1,903 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "global-fap": {
+            "enabled": true
+        },
+        "global-cfp": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
+        "GLOBAL-FAP-6x8-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 21.34
+        },
+        "GLOBAL-FAP-8x12-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 6.24
+        },
+        "GLOBAL-FAP-12x16-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 54.91
+        },
+        "GLOBAL-FAP-16x20-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 61.97
+        },
+        "GLOBAL-FAP-20x28-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 36.7
+        },
+        "GLOBAL-FAP-30x40-LANDSCAPE": {
+            "enabled": true,
+            "markup_percentage": 21.95
+        },
+        "GLOBAL-CFP-6x8-LANDSCAPE,Black Frame": {
+            "enabled": true,
+            "markup_percentage": 92.31
+        },
+        "GLOBAL-CFP-8x12-LANDSCAPE,Black Frame": {
+            "enabled": true,
+            "markup_percentage": 83.76
+        },
+        "GLOBAL-CFP-12x16-LANDSCAPE,Black Frame": {
+            "enabled": true,
+            "markup_percentage": 51.35
+        },
+        "GLOBAL-CFP-16x20-LANDSCAPE,Black Frame": {
+            "enabled": true,
+            "markup_percentage": 73.61
+        },
+        "GLOBAL-CFP-20x28-LANDSCAPE,Black Frame": {
+            "enabled": true,
+            "markup_percentage": 65.11
+        },
+        "GLOBAL-CFP-6x8-LANDSCAPE,White Frame": {
+            "enabled": true,
+            "markup_percentage": 92.31
+        },
+        "GLOBAL-CFP-8x12-LANDSCAPE,White Frame": {
+            "enabled": true,
+            "markup_percentage": 83.76
+        },
+        "GLOBAL-CFP-12x16-LANDSCAPE,White Frame": {
+            "enabled": true,
+            "markup_percentage": 51.35
+        },
+        "GLOBAL-CFP-16x20-LANDSCAPE,White Frame": {
+            "enabled": true,
+            "markup_percentage": 73.61
+        },
+        "GLOBAL-CFP-20x28-LANDSCAPE,White Frame": {
+            "enabled": true,
+            "markup_percentage": 65.11
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Mystical Moon Mountains",
+            "user_image_url": "https://www.dropbox.com/s/l566ais5wxsgpk1/Mystical%20Moon%20Mountains%20-%20PP-PO-NOVEL1308.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Mystical Moon Phases",
+            "user_image_url": "https://www.dropbox.com/s/iy32ye34calrht7/Mystical%20Moon%20Phases%20-%20PP-PO-NOVEL1307.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Mystical Moon Forest",
+            "user_image_url": "https://www.dropbox.com/s/sgpdbgqo77p588g/Mystical%20Moon%20Forest%20-%20PP-PO-NOVEL1306.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "World Map",
+            "user_image_url": "https://www.dropbox.com/s/n8t2wcdk7lpofhn/World%20Map%20-%20PP-PO-KID1256.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "How Do You Spell Love",
+            "user_image_url": "https://www.dropbox.com/s/92wdu3vs0wwu94j/How%20Do%20You%20Spell%20Love%20-%20PP-PO-KID1255.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Spain Map",
+            "user_image_url": "https://www.dropbox.com/s/fkxvy7tvh272try/Spain%20Map%20-%20PP-PO-KID1120.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are My Happy Place Rainbow",
+            "user_image_url": "https://www.dropbox.com/s/y0bosgir5ifwj8v/You%20Are%20My%20Happy%20Place%20Rainbow%20-%20PP-PO-KID1090.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Rainbow with Heart",
+            "user_image_url": "https://www.dropbox.com/s/k2ms2paodfwvnd2/Rainbow%20with%20Heart%20-%20PP-PO-KID1089.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Rainbow Red",
+            "user_image_url": "https://www.dropbox.com/s/mwrn7vjfakg129a/Rainbow%20Red%20-%20PP-PO-KID1088.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Rainbow Blue",
+            "user_image_url": "https://www.dropbox.com/s/u13ynhm0g98xxo8/Rainbow%20Blue%20-%20PP-PO-KID1087.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "North America Map",
+            "user_image_url": "https://www.dropbox.com/s/bwg0er3nzx5yoew/North%20America%20Map%20-%20PP-PO-KID1076.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Triceratops Navy",
+            "user_image_url": "https://www.dropbox.com/s/rb1wz76tjaubmk8/Triceratops%20Navy%20-%20PP-PO-KID939.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Triceratops Light Blue",
+            "user_image_url": "https://www.dropbox.com/s/b0g1uijlcdt3j36/Triceratops%20Light%20Blue%20-%20PP-PO-KID938.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Triceratops Green ",
+            "user_image_url": "https://www.dropbox.com/s/2pjtoacvpmpw38e/Triceratops%20Green%20-%20PP-PO-KID937.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Sauro Navy",
+            "user_image_url": "https://www.dropbox.com/s/6kytzowq4pa3idz/Sauro%20Navy%20-%20PP-PO-KID933.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Sauro Light Blue",
+            "user_image_url": "https://www.dropbox.com/s/ey9x5eufvdooccm/Sauro%20Light%20Blue%20-%20PP-PO-KID932.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Sauro Green",
+            "user_image_url": "https://www.dropbox.com/s/9lowtumzvcep98e/Sauro%20Green%20-%20PP-PO-KID931.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Greece Map",
+            "user_image_url": "https://www.dropbox.com/s/x2jle2rt4de82hi/Greece%20Map%20-%20PP-PO-KID733.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "France Map",
+            "user_image_url": "https://www.dropbox.com/s/250h9nbv60jwgwm/France%20Map%20-%20PP-PO-KID728.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Elephant Watercolour ",
+            "user_image_url": "https://www.dropbox.com/s/dqprh5lhzp2zcsn/Elephant%20Watercolour%20-%20PP-PO-KID716.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Europe Map",
+            "user_image_url": "https://www.dropbox.com/s/3qoq958295kfk5o/Europe%20Map%20-%20PP-PO-KID715.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Animal World Map",
+            "user_image_url": "https://www.dropbox.com/s/z0dsglmxnr4zx4r/Animal%20World%20Map%20-%20PP-PO-KID672.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are Braver Bold",
+            "user_image_url": "https://www.dropbox.com/s/bcm4z188sbn8ypt/You%20Are%20Braver%20Bold%20-%20PP-PO-TYP661.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Calm is a Super Power",
+            "user_image_url": "https://www.dropbox.com/s/fdjnfbdhde6gjy1/Calm%20is%20a%20Super%20Power%20-%20PP-PO-TYP626.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "I'm Not a Princess",
+            "user_image_url": "https://www.dropbox.com/s/c7ffzs5gq3ehesm/I%27m%20Not%20a%20Princess%20-%20PP-PO-TYP625.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "La Vie Est Belle",
+            "user_image_url": "https://www.dropbox.com/s/2m7wzq00a9izxt9/La%20Vie%20Est%20Belle%20-%20PP-PO-TYP624.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Je'taime",
+            "user_image_url": "https://www.dropbox.com/s/s8djoxz6kdbzcyy/Je%27taime%20-%20PP-PO-TYP623.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Cherie",
+            "user_image_url": "https://www.dropbox.com/s/jktl8rlqj1bds8j/Cherie%20-%20PP-PO-TYP622.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "In The Waves of Change",
+            "user_image_url": "https://www.dropbox.com/s/6k3609811mcudch/In%20The%20Waves%20of%20Change%20-%20PP-PO-TYP621.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are Braver Than You Believe",
+            "user_image_url": "https://www.dropbox.com/s/g48oyuszrfx8cm3/You%20Are%20Braver%20Than%20You%20Believe%20-%20PP-PO-TYP620.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You May Not Always End Up",
+            "user_image_url": "https://www.dropbox.com/s/a4hud23sa8ov4pa/You%20May%20Not%20Always%20End%20Up%20-%20PP-PO-TYP619.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Our Love is Forever",
+            "user_image_url": "https://www.dropbox.com/s/23exb98tjys53ic/Our%20Love%20is%20Forever%20-%20PP-PO-TYP618.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "All of Me Loves All of You",
+            "user_image_url": "https://www.dropbox.com/s/kk63dbnxw80hz8t/All%20of%20Me%20Loves%20All%20of%20You%20-%20PP-PO-TYP617.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are My Today",
+            "user_image_url": "https://www.dropbox.com/s/kbtpfkbxoelzwz0/You%20Are%20My%20Today%20-%20PP-PO-TYP616.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Always on My Mind",
+            "user_image_url": "https://www.dropbox.com/s/p1uzupq06j1r87g/Always%20on%20My%20Mind%20-%20PP-PO-TYP615.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "I Will Never Forget",
+            "user_image_url": "https://www.dropbox.com/s/1ipq6riqq0gwdkc/I%20Will%20Never%20Forget%20-%20PP-PO-TYP614.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Always",
+            "user_image_url": "https://www.dropbox.com/s/kzhfarere1a8yof/Always%20-%20PP-PO-TYP613.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are My Home",
+            "user_image_url": "https://www.dropbox.com/s/mgsoorkqfaajxgn/You%20Are%20My%20Home%20-%20PP-PO-TYP612.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Will Forever Be My Always",
+            "user_image_url": "https://www.dropbox.com/s/gsoemlo00uic9kp/You%20Will%20Forever%20Be%20My%20Always%20-%20PP-PO-TYP611.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Make My Heart Happy",
+            "user_image_url": "https://www.dropbox.com/s/xsgej50l20hc2es/You%20Make%20My%20Heart%20Happy%20-%20PP-PO-TYP610.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "We Are Stronger Together",
+            "user_image_url": "https://www.dropbox.com/s/fi9fp9ak9jmxlyc/We%20Are%20Stronger%20Together%20-%20PP-PO-TYP609.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "When it Rains",
+            "user_image_url": "https://www.dropbox.com/s/wzetymi45m1q0v9/When%20it%20Rains%20-%20PP-PO-TYP608.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "If You Want to Fly - Buddha",
+            "user_image_url": "https://www.dropbox.com/s/4kyw37ljmq89l45/If%20You%20Want%20to%20Fly%20-%20Buddha%20-%20PP-PO-TYP607.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "And In The Middle of My Chaos",
+            "user_image_url": "https://www.dropbox.com/s/clinco6txco6lda/And%20In%20The%20Middle%20of%20My%20Chaos%20-%20PP-PO-TYP606.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "It Was Always You",
+            "user_image_url": "https://www.dropbox.com/s/pp0u1v3dn08ufqk/It%20Was%20Always%20You%20-%20PP-PO-TYP605.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "And After All This Time",
+            "user_image_url": "https://www.dropbox.com/s/2iff18wqdqg1fpj/And%20After%20All%20This%20Time%20-%20PP-PO-TYP604.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "L'amour De Ma Vie",
+            "user_image_url": "https://www.dropbox.com/s/0j50yyu753zo600/L%27amour%20De%20Ma%20Vie%20-%20PP-PO-TYP603.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "You Are Enough",
+            "user_image_url": "https://www.dropbox.com/s/yaothtz55go5fmu/You%20Are%20Enough%20-%20PP-PO-TYP602.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "We Were Together Landscape",
+            "user_image_url": "https://www.dropbox.com/s/8xk5wkcb4jt1k6l/We%20Were%20Together%20Landscape%20-%20PP-PO-TYP594.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "So I Can Kiss You Anytime",
+            "user_image_url": "https://www.dropbox.com/s/gq42ac8dd2dvlrt/So%20I%20Can%20Kiss%20You%20Anytime%20-%20PP-PO-TYP580.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Love Letters",
+            "user_image_url": "https://www.dropbox.com/s/e6i1uage67fm1ij/Love%20Letters%20-%20PP-PO-TYP558.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Forever Landscape",
+            "user_image_url": "https://www.dropbox.com/s/rrslf29alhd2ut3/Forever%20Landscape%20-%20PP-PO-TYP515.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Family Letters",
+            "user_image_url": "https://www.dropbox.com/s/5zuyayb6b2d41iu/Family%20Letters%20-%20PP-PO-TYP512.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Every Love Story is Beautiful",
+            "user_image_url": "https://www.dropbox.com/s/iomty1m1t0vx71z/Every%20Love%20Story%20is%20Beautiful%20-%20PP-PO-TYP509.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Always Kiss Me Goodnight",
+            "user_image_url": "https://www.dropbox.com/s/6neahotavpzzoip/Always%20Kiss%20Me%20Goodnight%20-%20PP-PO-TYP491.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "& Landscape",
+            "user_image_url": "https://www.dropbox.com/s/mc4nfa7zg4en823/%26%20Landscape%20-%20PP-PO-TYP488.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Plant Collection Jungle Abstract",
+            "user_image_url": "https://www.dropbox.com/s/esvnyaqthucrgs1/Plant%20Collection%20Jungle%20Abstract%20-%20PP-PO-JUN487.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Save Water Drink Gin",
+            "user_image_url": "https://www.dropbox.com/s/h5gi4zp1rmir4vx/Save%20Water%20Drink%20Gin%20-%20PP-PO-KIT330.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "The Best Cup of Tea",
+            "user_image_url": "https://www.dropbox.com/s/frn7jon5vp82c24/The%20Best%20Cup%20of%20Tea%20-%20PP-PO-KIT329.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "A Spoon Full of Coffee",
+            "user_image_url": "https://www.dropbox.com/s/0wlpoxnjeou1yg1/A%20Spoon%20Full%20of%20Coffee%20-%20PP-PO-KIT323.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Where There is Tea There is Hope",
+            "user_image_url": "https://www.dropbox.com/s/agqad6yf83j5khy/Where%20There%20is%20Tea%20There%20is%20Hope%20-%20PP-PO-KIT322.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Laundry Today or Naked Tomorrow",
+            "user_image_url": "https://www.dropbox.com/s/aylvoz7bbz8vl5j/Laundry%20Today%20or%20Naked%20Tomorrow%20-%20PP-PO-BTH274.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Enjoy Bathtub Silhouette",
+            "user_image_url": "https://www.dropbox.com/s/u5glg7vbythxy8e/Enjoy%20Bathtub%20Silhouette%20-%20PP-PO-BTH263.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Pink Rainbow Neon Funk",
+            "user_image_url": "https://www.dropbox.com/s/y7x6gm7gtm00jih/Pink%20Rainbow%20Neon%20Funk%20-%20PP-PO-CP235.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "It Was All a Dream Neon Funk",
+            "user_image_url": "https://www.dropbox.com/s/m8uogmgaoppefbf/It%20Was%20All%20a%20Dream%20Neon%20Funk%20-%20PP-PO-CP234.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "I Woke Up Like This Neon Funk",
+            "user_image_url": "https://www.dropbox.com/s/h9fvhmpxhldzuof/I%20Woke%20Up%20Like%20This%20Neon%20Funk%20-%20PP-PO-CP233.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Gold Moon Navy Marble Mountains Landscape",
+            "user_image_url": "https://www.dropbox.com/s/96q6xlq1rmn3vx7/Gold%20Moon%20Navy%20Marble%20Mountains%20Landscape%20-%20PP-PO-AB137.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        },
+        {
+            "title": "Dalia Chalk Landscape Floral",
+            "user_image_url": "https://www.dropbox.com/s/b2yg2cwhjhzg72p/Dalia%20Chalk%20Landscape%20Floral%20-%20PP-PO-AB037.jpg?dl=0",
+            "products": {
+                "global-fap": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                },
+                "global-cfp": {
+                    "description": "We only use premium quality heavyweight (200gsm) fine art print material with a smooth, clean matt finish. All prints by Pixy Paper are made using state-of-the-art digital giclée printers. With a vibrant and clean design, your print will last a lifetime.\n\nWe are very proud that our prints are eco-friendly; they contain no plastic, are made using water based inks and sustainably sourced paper.\n\nAll sizes displayed are in inches, for more information on sizes please visit our size guide page."
+                }
+            }
+        }
+    ]
+}

@@ -6,51 +6,20 @@
         "enabled": false
     },
     "products_defaults": {
-        "bc3001_tshirt_short_sleeve_uk": {
+        "global-fap": {
             "enabled": true
         },
-        "bc6004_womens_tshirt_uk": {
+        "global-cfp": {
             "enabled": true
         }
     },
     "variant_defaults": {
-        "enabled": false,
-        "retail_price": 20,
-        "images": {
-            "front": {
-                "image_arguments": {
-                    "scale": 0.75
-                }
-            }
-        }
+        "enabled": false
     },
     "variants_defaults": {
         "bc3001_tshirt_short_sleeve_uk/s,black": {
-            "enabled": true
-        },
-        "bc3001_tshirt_short_sleeve_uk/m,black": {
-            "enabled": true
-        },
-        "bc3001_tshirt_short_sleeve_uk/l,black": {
-            "enabled": true
-        },
-        "bc3001_tshirt_short_sleeve_uk/xl,black": {
-            "enabled": true
-        },
-        "bc3001_tshirt_short_sleeve_uk/2xl,black": {
-            "enabled": true
-        },
-        "bc6004_womens_tshirt_uk/s,true_royal": {
-            "enabled": true
-        },
-        "bc6004_womens_tshirt_uk/m,true_royal": {
-            "enabled": true
-        },
-        "bc6004_womens_tshirt_uk/l,true_royal": {
-            "enabled": true
-        },
-        "bc6004_womens_tshirt_uk/xl,true_royal": {
-            "enabled": true
+            "enabled": true,
+            "retail_price": 20
         }
     },
     "product_ranges": [
@@ -58,70 +27,10 @@
             "title": "Bound For Glory 2020 - Crazzy Steve",
             "user_image_url": "https://drive.google.com/uc?export=download&id=1KcdHG9-9A6URKOGuyTl8GqL75VeMlZ2b",
             "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
+                "global-fap": {
                     "description": ""
                 },
-                "bc6004_womens_tshirt_uk": {
-                    "description": ""
-                }
-            }
-        },
-        {
-            "title": "Bound For Glory 2020 - Bey",
-            "user_image_url": "https://drive.google.com/uc?export=download&id=1S21125Gz_9yIlxFwMjXOpQyErzfFcm3h",
-            "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
-                    "description": ""
-                },
-                "bc6004_womens_tshirt_uk": {
-                    "description": ""
-                }
-            }
-        },
-        {
-            "title": "Bound For Glory 2020 - Alisha",
-            "user_image_url": "https://drive.google.com/uc?export=download&id=1jm4RVte1Hz5NeLQ1rt1tdhRmB2pIZeOT",
-            "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
-                    "description": ""
-                },
-                "bc6004_womens_tshirt_uk": {
-                    "description": ""
-                }
-            }
-        },
-        {
-            "title": "Bound For Glory 2020 - Rosemary/Taya/Bravo",
-            "user_image_url": "https://www.dropbox.com/s/ypaq5wb6ts6k3y1/1178-RosemaryTayaBravo.tif?dl=0",
-            "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
-                    "description": ""
-                },
-                "bc6004_womens_tshirt_uk": {
-                    "description": ""
-                }
-            }
-        },
-        {
-            "title": "Bound For Glory 2020 - Hernandez",
-            "user_image_url": "https://www.dropbox.com/s/qbnbgevk5dhjatz/1161-HErnandez.tif?dl=0",
-            "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
-                    "description": ""
-                },
-                "bc6004_womens_tshirt_uk": {
-                    "description": ""
-                }
-            }
-        },
-        {
-            "title": "Bound For Glory 2020 - Fulton/Ace",
-            "user_image_url": "https://www.dropbox.com/s/vwp6gmd64jzodg0/1158-FultonAce.tif?dl=0",
-            "products": {
-                "bc3001_tshirt_short_sleeve_uk": {
-                    "description": ""
-                },
-                "bc6004_womens_tshirt_uk": {
+                "global-cfp": {
                     "description": ""
                 }
             }
