@@ -41,43 +41,43 @@
             "enabled": true,
             "markup_percentage": 21.95
         },
-        "global-cfp/6x8,black_frame": {
+        "global-cfp/8x6,black_frame": {
             "enabled": true,
             "markup_percentage": 92.31
         },
-        "global-cfp/8x12,black_frame": {
+        "global-cfp/12x8,black_frame": {
             "enabled": true,
             "markup_percentage": 83.76
         },
-        "global-cfp/12x16,black_frame": {
+        "global-cfp/16x12,black_frame": {
             "enabled": true,
             "markup_percentage": 51.35
         },
-        "global-cfp/16x20,black_frame": {
+        "global-cfp/20x16,black_frame": {
             "enabled": true,
             "markup_percentage": 73.61
         },
-        "global-cfp/20x28,black_frame": {
+        "global-cfp/28x20,black_frame": {
             "enabled": true,
             "markup_percentage": 65.11
         },
-        "global-cfp/6x8,white_frame": {
+        "global-cfp/8x6,white_frame": {
             "enabled": true,
             "markup_percentage": 92.31
         },
-        "global-cfp/8x12,white_frame": {
+        "global-cfp/12x8,white_frame": {
             "enabled": true,
             "markup_percentage": 83.76
         },
-        "global-cfp/12x16,white_frame": {
+        "global-cfp/16x12,white_frame": {
             "enabled": true,
             "markup_percentage": 51.35
         },
-        "global-cfp/16x20,white_frame": {
+        "global-cfp/20x16,white_frame": {
             "enabled": true,
             "markup_percentage": 73.61
         },
-        "global-cfp/20x28,white_frame": {
+        "global-cfp/28x20,white_frame": {
             "enabled": true,
             "markup_percentage": 65.11
         }
