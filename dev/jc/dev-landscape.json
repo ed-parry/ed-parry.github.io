@@ -43,6 +43,41 @@
         }
     },
     "product_ranges": [
-       
+        {
+            "title": "\"Lily\"",
+            "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/master/dev/jc/images/JCA_FAP_LIL_NFA1.jpg",
+            "products": {
+                "global-fap": {
+                    "description": "\"Lily\" - Giclée printed on heavy-duty 308gsm matte paper made of 100% cotton rag with a natural white tone and excellent black saturation. It has a soft texture with a lightly defined felt structure, producing very high-quality print reproductions. An archival quality print of a realist acrylic painting of a woman."
+                },
+                "global-cfp": {
+                    "description": "\"Lily\" - Giclée printed on heavy-duty 308gsm matte paper made of 100% cotton rag with a natural white tone and excellent black saturation. It has a soft texture with a lightly defined felt structure, producing very high-quality print reproductions. An archival quality print of a realist acrylic painting of a woman."
+                }
+            }
+        },
+        {
+            "title": "Toronto Downtown Reflection",
+            "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/master/dev/jc/images/JCA_FAA_TOR_NFA1.jpg",
+            "products": {
+                "global-fap": {
+                    "description": "\"Toronto Downtown Reflection\" - Giclée printed on premium quality 200gsm heavyweight fine art print stock with a smooth, clean finish. This museum-quality paper is extremely consistent and works perfectly with large, full colour artworks, the matte finish emphasising different highlights and tones. An archival quality print of a realist acrylic painting of downtown Toronto, reflected in glass building."
+                },
+                "global-cfp": {
+                    "description": "\"Toronto Downtown Reflection\" - Giclée printed on premium quality 200gsm heavyweight fine art print stock with a smooth, clean finish. This museum-quality paper is extremely consistent and works perfectly with large, full colour artworks, the matte finish emphasising different highlights and tones. An archival quality print of a realist acrylic painting of downtown Toronto, reflected in glass building."
+                }
+            }
+        },
+        {
+            "title": "Mid Century Modern",
+            "user_image_url": "https://github.com/ed-parry/ed-parry.github.io/raw/master/dev/jc/images/JCA_FAA_MIDC_NFA1.jpg",
+            "products": {
+                "global-fap": {
+                    "description": "\"Mid Century Modern\" - Giclée printed on premium quality 200gsm heavyweight fine art print stock with a smooth, clean finish. This museum-quality paper is extremely consistent and works perfectly with large, full colour artworks, the matte finish emphasising different highlights and tones. An archival quality print of a realist acrylic painting of Palm Springs, California, famous for its mid-centruy modern architecture. "
+                },
+                "global-cfp": {
+                    "description": "\"Mid Century Modern\" - Giclée printed on premium quality 200gsm heavyweight fine art print stock with a smooth, clean finish. This museum-quality paper is extremely consistent and works perfectly with large, full colour artworks, the matte finish emphasising different highlights and tones. An archival quality print of a realist acrylic painting of Palm Springs, California, famous for its mid-centruy modern architecture. "
+                }
+            }
+        }
     ]
 }
