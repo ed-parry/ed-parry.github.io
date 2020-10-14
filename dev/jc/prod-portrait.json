@@ -19,27 +19,27 @@
     "variants_defaults": {
         "GLOBAL-FAP-A1-PORTRAIT": {
             "enabled": true,
-            "price": 150
+            "retail_price": 150
         },
         "GLOBAL-FAP-A2-PORTRAIT": {
             "enabled": true,
-            "price": 100
+            "retail_price": 100
         },
         "GLOBAL-FAP-A3-PORTRAIT": {
             "enabled": true,
-            "price": 75
+            "retail_price": 75
         },
         "GLOBAL-CFP-A1-PORTRAIT": {
             "enabled": true,
-            "price": 180
+            "retail_price": 180
         },
         "GLOBAL-CFP-A2-PORTRAIT": {
             "enabled": true,
-            "price": 120
+            "retail_price": 120
         },
         "GLOBAL-CFP-A3-PORTRAIT": {
             "enabled": true,
-            "price": 90
+            "retail_price": 90
         }
     },
     "product_ranges": [
