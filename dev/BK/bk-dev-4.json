@@ -366,27 +366,6 @@
             }
         },
         {
-            "title": "Saggy Nips ",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/FRONT/GENERAL.png",
-            "products": {
-                "greeting_card": {
-                    "description": "",
-                    "variants": {
-                        "greeting_cards_a5": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/FRONT/GENERAL.png"
-                                },
-                                "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/BACK/-.png"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
             "title": "Ginger Are For Life Not Xmas",
             "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/FRONT/18.png",
             "products": {
@@ -421,27 +400,6 @@
                                 },
                                 "back": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/BACK/19.png"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "title": "Only Tossers Are Born In Decmeber ",
-            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/FRONT/GENERAL.png",
-            "products": {
-                "greeting_card": {
-                    "description": "",
-                    "variants": {
-                        "greeting_cards_a5": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/FRONT/GENERAL.png"
-                                },
-                                "back": {
-                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/BK/BACK/-.png"
                                 }
                             }
                         }
