@@ -2389,7 +2389,7 @@
                         "greeting_cards_7x5": {
                             "images": {
                                 "back": {
-                                    "preview_image_url": null,
+                                    "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
                                     "image_arguments": {
                                         "filters": "",
                                         "scale": 1.0,
@@ -2397,7 +2397,7 @@
                                         "translate": "0,0",
                                         "rotate": 0
                                     },
-                                    "user_image_url": null
+                                    "user_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg"
                                 },
                                 "front": {
                                     "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
@@ -2415,7 +2415,7 @@
                         "greeting_cards_a5": {
                             "images": {
                                 "back": {
-                                    "preview_image_url": null,
+                                    "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
                                     "image_arguments": {
                                         "filters": "",
                                         "scale": 1.0,
@@ -2423,7 +2423,7 @@
                                         "translate": "0,0",
                                         "rotate": 0
                                     },
-                                    "user_image_url": null
+                                    "user_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg"
                                 },
                                 "inside_right": {},
                                 "front": {
@@ -2442,7 +2442,7 @@
                         "greeting_cards_7x5_10pack": {
                             "images": {
                                 "back": {
-                                    "preview_image_url": null,
+                                    "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
                                     "image_arguments": {
                                         "filters": "",
                                         "scale": 1.0,
@@ -2450,7 +2450,7 @@
                                         "translate": "0,0",
                                         "rotate": 0
                                     },
-                                    "user_image_url": null
+                                    "user_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg"
                                 },
                                 "front": {
                                     "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
@@ -2468,7 +2468,7 @@
                         "greeting_cards_a5_10pack": {
                             "images": {
                                 "back": {
-                                    "preview_image_url": null,
+                                    "preview_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg",
                                     "image_arguments": {
                                         "filters": "",
                                         "scale": 1.0,
@@ -2476,7 +2476,7 @@
                                         "translate": "0,0",
                                         "rotate": 0
                                     },
-                                    "user_image_url": null
+                                    "user_image_url": "https://s3.amazonaws.com/kiteshopify/2460ea84-7be9-46b4-bc1a-8427212e018f_preview.jpeg"
                                 },
                                 "inside_right": {},
                                 "front": {
