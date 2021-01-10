@@ -23,19 +23,19 @@
         "enabled": false
     },
     "variants_defaults": {
-        "global-cfpm-8x12-landscape": {
+        "GLOBAL-CFPM-8x12-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "global-cfpm-11x14-landscape": {
+        "GLOBAL-CFPM-11x14-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "global-cfpm-12x16-landscape": {
+        "GLOBAL-CFPM-12x16-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "global-cfpm-16x20-landscape": {
+        "GLOBAL-CFPM-16x20-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
