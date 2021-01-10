@@ -39,31 +39,31 @@
             "enabled": true,
             "markup_percentage": 100
         },
-        "global-fap-8x10-landscape": {
+        "GLOBAL-FAP-8x10-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "global-fap-14x11-landscape": {
+        "GLOBAL-FAP-11x14-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 120
         },
-        "global-fap-16x12-landscape": {
+        "GLOBAL-FAP-12x16-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "global-fap-16x20-landscape": {
+        "GLOBAL-FAP-16x20-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 140
         },
-        "global-fap-a2-landscape": {
+        "GLOBAL-FAP-A2-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 160
         },
-        "global-fap-a3-landscape": {
+        "GLOBAL-FAP-A3-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "global-fap-a4-landscape": {
+        "GLOBAL-FAP-A4-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
