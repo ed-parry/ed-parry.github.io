@@ -47,11 +47,11 @@
             "enabled": true,
             "markup_percentage": 120
         },
-        "global-fap-12x16-landscape": {
+        "global-fap-16x12-landscape": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "global-fap-16x20-landscape": {
+        "global-fap-20x16-landscape": {
             "enabled": true,
             "markup_percentage": 140
         },
