@@ -112,10 +112,6 @@
             "enabled": true,
             "markup_percentage": 100
         },
-        "phonecase_ise2_tough": {
-            "enabled": true,
-            "markup_percentage": 100
-        },
         "phonecase_i8plus_snap": {
             "enabled": true,
             "markup_percentage": 100
