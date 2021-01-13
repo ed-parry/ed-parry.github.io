@@ -1,0 +1,653 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "sublimation_tote_bag": {
+            "enabled": true
+        },
+        "mug_11oz_ceramic": {
+            "enabled": true
+        },
+        "phonecase": {
+            "enabled": true
+        },
+        "tablet_cases_new": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
+        "sublimation_tote_bag": {
+            "enabled": true,
+            "markup_percentage": 70
+        },
+        "mug_11oz_ceramic": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ise2_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i8plus_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i8plus_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11pro_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11pro_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11promax_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i11promax_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ix_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ix_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixr_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixr_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixs_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixsmax_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixs_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_ixsmax_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs8_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs8_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs8plus_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs8plus_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs9_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs9plus_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i8_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i8_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12pro_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12promax_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12mini_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12pro_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12promax_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_i12mini_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgn10_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgn10p_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs10_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs10e_snap": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgn10_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgn10p_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs10_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "phonecase_sgs10e_tough": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "ipad_2_3_4_snap_case": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "ipad_air2_snap_case": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "ipad_mini_4_snap_case": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "ipad_mini_123_snap_case": {
+            "enabled": true,
+            "markup_percentage": 150
+        },
+        "ipad_air_case": {
+            "enabled": true,
+            "markup_percentage": 150
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "abstractalumblack",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumblack.jpg",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumblack.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumblack.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumblack.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumblack.jpg"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "abstractalumcells",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells.png",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells.png"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "abstractalumcells2",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells2.png",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells2.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells2.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells2.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells2.png"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "abstractalumcells3",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells3.png",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells3.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells3.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells3.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/abstractalumcells3.png"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "paleblueglass",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/paleblueglass.png",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/paleblueglass.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/paleblueglass.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/paleblueglass.png"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/paleblueglass.png"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "smokeabstract",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/smokeabstract.jpg",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/smokeabstract.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/smokeabstract.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/smokeabstract.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/smokeabstract.jpg"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "stackingstoneabstractindigo",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractindigo.jpg",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractindigo.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractindigo.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractindigo.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractindigo.jpg"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "stackingstoneabstractnude",
+            "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractnude.jpg",
+            "products": {
+                "sublimation_tote_bag": {
+                    "description": "",
+                    "variants": {
+                        "sublimation_tote_bag": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractnude.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "mug_11oz_ceramic": {
+                    "description": "",
+                    "variants": {
+                        "mug_11oz_ceramic": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractnude.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "phonecase": {
+                    "description": "",
+                    "variants": {
+                        "phonecase_i11_snap": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractnude.jpg"
+                                }
+                            }
+                        }
+                    }
+                },
+                "tablet_cases_new": {
+                    "description": "",
+                    "variants": {
+                        "ipad_2_3_4_snap_case": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Geometric/stackingstoneabstractnude.jpg"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
