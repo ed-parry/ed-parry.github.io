@@ -66,15 +66,15 @@
             "enabled": true,
             "markup_percentage": 140
         },
-        "GLOBAL-FAP-32x16-LANDSCAPE": {
+        "GLOBAL-FAP-16x32-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-40x20-LANDSCAPE": {
+        "GLOBAL-FAP-20x40-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 120
         },
-        "GLOBAL-FAP-60x30-LANDSCAPE": {
+        "GLOBAL-FAP-30x60-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 140
         },
