@@ -32,47 +32,47 @@
         "enabled": false
     },
     "variants_defaults": {
-        "GLOBAL-CFPM-8x12-LANDSCAPE": {
+        "GLOBAL-CFPM-8x12-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+        "GLOBAL-CFPM-11x14-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-12x16-LANDSCAPE": {
+        "GLOBAL-CFPM-12x16-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-16x20-LANDSCAPE": {
+        "GLOBAL-CFPM-16x20-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-8x10-LANDSCAPE": {
+        "GLOBAL-FAP-8x10-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-11x14-LANDSCAPE": {
+        "GLOBAL-FAP-11x14-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 120
         },
-        "GLOBAL-FAP-12x16-LANDSCAPE": {
+        "GLOBAL-FAP-12x16-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "GLOBAL-FAP-16x20-LANDSCAPE": {
+        "GLOBAL-FAP-16x20-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 140
         },
-        "GLOBAL-FAP-A2-LANDSCAPE": {
+        "GLOBAL-FAP-A2-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 160
         },
-        "GLOBAL-FAP-A3-LANDSCAPE": {
+        "GLOBAL-FAP-A3-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "GLOBAL-FAP-A4-LANDSCAPE": {
+        "GLOBAL-FAP-A4-PORTRAIT": {
             "enabled": true,
             "markup_percentage": 100
         },
@@ -301,7 +301,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearthblue.png"
@@ -313,7 +313,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearthblue.png"
@@ -391,7 +391,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearths.png"
@@ -403,7 +403,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearths.png"
@@ -481,7 +481,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1.png"
@@ -493,7 +493,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1.png"
@@ -571,7 +571,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1a.png"
@@ -583,7 +583,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1a.png"
@@ -661,7 +661,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1bw.png"
@@ -673,7 +673,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1bw.png"
@@ -751,7 +751,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2.png"
@@ -763,7 +763,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2.png"
@@ -841,7 +841,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2a.png"
@@ -853,7 +853,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2a.png"
@@ -931,7 +931,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2bw.png"
@@ -943,7 +943,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2bw.png"
@@ -1021,7 +1021,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3.png"
@@ -1033,7 +1033,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3.png"
@@ -1111,7 +1111,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3a.png"
@@ -1123,7 +1123,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3a.png"
@@ -1201,7 +1201,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3bw.png"
@@ -1213,7 +1213,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3bw.png"
@@ -1291,7 +1291,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4.png"
@@ -1303,7 +1303,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4.png"
@@ -1381,7 +1381,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4a.png"
@@ -1393,7 +1393,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4a.png"
@@ -1471,7 +1471,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-LANDSCAPE": {
+                        "GLOBAL-FAP-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4bw.png"
@@ -1483,7 +1483,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
+                        "GLOBAL-CFPM-11x14-PORTRAIT": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4bw.png"
