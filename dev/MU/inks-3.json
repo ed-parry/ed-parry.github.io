@@ -240,10 +240,6 @@
             "enabled": true,
             "markup_percentage": 100
         },
-        "phonecase_sgs20_snap": {
-            "enabled": true,
-            "markup_percentage": 100
-        },
         "phonecase_sgn10_tough": {
             "enabled": true,
             "markup_percentage": 100
