@@ -26,67 +26,67 @@
         "enabled": false
     },
     "variants_defaults": {
-        "GLOBAL-CFPM-8x12-PORTRAIT": {
+        "GLOBAL-CFPM-8x12-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-11x14-PORTRAIT": {
+        "GLOBAL-CFPM-11x14-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-12x16-PORTRAIT": {
+        "GLOBAL-CFPM-12x16-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-16x20-PORTRAIT": {
+        "GLOBAL-CFPM-16x20-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-20x28-PORTRAIT": {
+        "GLOBAL-CFPM-20x28-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-CFPM-40x28-PORTRAIT": {
+        "GLOBAL-CFPM-28x40-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-8x10-PORTRAIT": {
+        "GLOBAL-FAP-8x10-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-11x14-PORTRAIT": {
+        "GLOBAL-FAP-11x14-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 120
         },
-        "GLOBAL-FAP-12x16-PORTRAIT": {
+        "GLOBAL-FAP-12x16-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "GLOBAL-FAP-16x20-PORTRAIT": {
+        "GLOBAL-FAP-16x20-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 140
         },
-        "GLOBAL-FAP-32x16-PORTRAIT": {
+        "GLOBAL-FAP-32x16-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
-        "GLOBAL-FAP-40x20-PORTRAIT": {
+        "GLOBAL-FAP-40x20-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 120
         },
-        "GLOBAL-FAP-60x30-PORTRAIT": {
+        "GLOBAL-FAP-60x30-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 140
         },
-        "GLOBAL-FAP-A2-PORTRAIT": {
+        "GLOBAL-FAP-A2-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 160
         },
-        "GLOBAL-FAP-A3-PORTRAIT": {
+        "GLOBAL-FAP-A3-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 130
         },
-        "GLOBAL-FAP-A4-PORTRAIT": {
+        "GLOBAL-FAP-A4-LANDSCAPE": {
             "enabled": true,
             "markup_percentage": 100
         },
@@ -131,7 +131,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-30inx15in.jpg"
@@ -143,7 +143,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-30inx15in.jpg"
@@ -197,7 +197,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-36inx12in.jpg"
@@ -209,7 +209,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-36inx12in.jpg"
@@ -263,7 +263,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-90by60.jpg"
@@ -275,7 +275,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 5 PANORAMA-90by60.jpg"
@@ -329,7 +329,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 6 PANORAMA-30inx15in.jpg"
@@ -341,7 +341,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 6 PANORAMA-30inx15in.jpg"
@@ -395,7 +395,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 7 PANORAMA-30inx15in.jpg"
@@ -407,7 +407,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/FISH SHOAL 7 PANORAMA-30inx15in.jpg"
@@ -461,7 +461,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/MorskieOkoPanorama30x15inches.jpg"
@@ -473,7 +473,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/MorskieOkoPanorama30x15inches.jpg"
@@ -527,7 +527,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/MorskieOkoPanorama30x15inchesbw.jpg"
@@ -539,7 +539,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/MorskieOkoPanorama30x15inchesbw.jpg"
@@ -593,7 +593,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/poppypanoramic.png"
@@ -605,7 +605,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/poppypanoramic.png"
@@ -659,7 +659,7 @@
                 "global-fap": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-FAP-11x14-PORTRAIT": {
+                        "GLOBAL-FAP-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/poppypanoramicbw.png"
@@ -671,7 +671,7 @@
                 "global-cfpm": {
                     "description": "",
                     "variants": {
-                        "GLOBAL-CFPM-11x14-PORTRAIT": {
+                        "GLOBAL-CFPM-11x14-LANDSCAPE": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Panoramas/poppypanoramicbw.png"
