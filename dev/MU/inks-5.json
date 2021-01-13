@@ -84,7 +84,27 @@
             "enabled": true,
             "markup_percentage": 150
         },
-        "cushion": {
+        "canvas_12x12_cushion": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "canvas_18x18_cushion": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "linen_12x12_cushion": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "linen_18x18_cushion": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "suede_12x12_cushion": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "suede_18x18_cushion": {
             "enabled": true,
             "markup_percentage": 100
         },
@@ -337,7 +357,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearthblue.png"
@@ -427,7 +447,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/allearths.png"
@@ -517,7 +537,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1.png"
@@ -607,7 +627,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1a.png"
@@ -697,7 +717,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth1bw.png"
@@ -787,7 +807,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2.png"
@@ -877,7 +897,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2a.png"
@@ -967,7 +987,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth2bw.png"
@@ -1057,7 +1077,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3.png"
@@ -1147,7 +1167,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3a.png"
@@ -1237,7 +1257,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth3bw.png"
@@ -1327,7 +1347,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4.png"
@@ -1417,7 +1437,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4a.png"
@@ -1507,7 +1527,7 @@
                 "cushion": {
                     "description": "",
                     "variants": {
-                        "cushion": {
+                        "canvas_18x18_cushion": {
                             "images": {
                                 "front": {
                                     "user_image_url": "https://raw.githubusercontent.com/ed-parry/ed-parry.github.io/master/dev/MU/images/Inks/earth4bw.png"
