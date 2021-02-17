@@ -44,36 +44,6 @@
     },
     "product_ranges": [
         {
-            "title": "Minnesota - I Love U Series",
-            "user_image_url": "https://drive.google.com/uc?export=download&id=16keSGsyAS3by0IGpASIZdcgYgqZPWn95",
-            "products": {
-                "global-fap": {
-                    "description": "Art print by Graham Kelley - exclusively for ART OF THE STATE. \n \n Printed on sustainably sourced, museum quality art paper using the giclée printing process.\n \n Packed and shipped in a protective tube — Worldwide shipping.",
-                    "variants": {
-                        "GLOBAL-FAP-A1-PORTRAIT": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://drive.google.com/uc?export=download&id=16keSGsyAS3by0IGpASIZdcgYgqZPWn95"
-                                }
-                            }
-                        }
-                    }
-                },
-                "global-cfp": {
-                    "description": "Art print by Graham Kelley - exclusively for ART OF THE STATE. \n \n Printed on sustainably sourced, museum quality art paper using the giclée printing process.\n \n Framed prints will be professionally mounted, packaged securely and shipped ready to hang — Worldwide shipping.",
-                    "variants": {
-                        "GLOBAL-CFP-A1-PORTRAIT": {
-                            "images": {
-                                "front": {
-                                    "user_image_url": "https://drive.google.com/uc?export=download&id=16keSGsyAS3by0IGpASIZdcgYgqZPWn95"
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        },
-        {
             "title": "Mississippi - I Love U Series",
             "user_image_url": "https://drive.google.com/uc?export=download&id=14CJqjQPCfZ6LeRXC1LkR5nd0lM_3JFRM",
             "products": {
