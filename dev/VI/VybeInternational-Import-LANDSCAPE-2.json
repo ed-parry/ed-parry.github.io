@@ -3,14 +3,7 @@
         "published": true
     },
     "product_defaults": {
-        "enabled": false,
-        "images": {
-            "front": {
-                "image_arguments": {
-                    "rotate_degrees": 90
-                }
-            }
-        }
+        "enabled": false
     },
     "products_defaults": {
         "global-can": {
@@ -21,7 +14,14 @@
         }
     },
     "variant_defaults": {
-        "enabled": false
+        "enabled": false,
+        "images": {
+            "front": {
+                "image_arguments": {
+                    "rotate_degrees": 90
+                }
+            }
+        }
 
     },
     "variants_defaults": {
