@@ -1,0 +1,437 @@
+{
+    "product_range_defaults": {
+        "published": true
+    },
+    "product_defaults": {
+        "enabled": false
+    },
+    "products_defaults": {
+        "global-can": {
+            "enabled": true
+        },
+        "global-fra-can": {
+            "enabled": true
+        }
+    },
+    "variant_defaults": {
+        "enabled": false
+    },
+    "variants_defaults": {
+        "GLOBAL-CAN-20x20-SQUARE-IW": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "GLOBAL-CAN-24x24-SQUARE-IW": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "GLOBAL-CAN-32x32-SQUARE-IW": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "GLOBAL-FRA-CAN-24x24-SQUARE": {
+            "enabled": true,
+            "markup_percentage": 100
+        },
+        "GLOBAL-FRA-CAN-32x32-SQUARE": {
+            "enabled": true,
+            "markup_percentage": 100
+        }
+    },
+    "product_ranges": [
+        {
+            "title": "Where The Lines Meet",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1Xi1F9WOj7DRJO0UlAVDBEPGJi4wCwaxc",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1Xi1F9WOj7DRJO0UlAVDBEPGJi4wCwaxc"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1Xi1F9WOj7DRJO0UlAVDBEPGJi4wCwaxc"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "The Bright Side",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=16JENdyRapX56-dsTA33mNTQgB5hzrfq5",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=16JENdyRapX56-dsTA33mNTQgB5hzrfq5"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=16JENdyRapX56-dsTA33mNTQgB5hzrfq5"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Sun Goddess",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=163Uow0wUbXVIr-XyjpQXWfyQktp85oVZ",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=163Uow0wUbXVIr-XyjpQXWfyQktp85oVZ"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=163Uow0wUbXVIr-XyjpQXWfyQktp85oVZ"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Soft Shapes",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1jZfYcdMz5EhSxoEVDytCM8cYvD9U9jRD",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1jZfYcdMz5EhSxoEVDytCM8cYvD9U9jRD"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1jZfYcdMz5EhSxoEVDytCM8cYvD9U9jRD"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Peaceful Morning",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1BBymaJyQ4XHxL79jRnGUotRPvAxcRRb8",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1BBymaJyQ4XHxL79jRnGUotRPvAxcRRb8"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1BBymaJyQ4XHxL79jRnGUotRPvAxcRRb8"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Peaceful Evening",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1wISrzQVs1tbYLZCAncrpE2IbpzFGmjmC",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1wISrzQVs1tbYLZCAncrpE2IbpzFGmjmC"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1wISrzQVs1tbYLZCAncrpE2IbpzFGmjmC"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Pale Moon",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1dvLUKnJGmJiOxMDD3XGKEP3buU4s94NI",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1dvLUKnJGmJiOxMDD3XGKEP3buU4s94NI"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1dvLUKnJGmJiOxMDD3XGKEP3buU4s94NI"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Offset",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1hALJpVrmv4exa23B4ykQk60-AGNFiw6w",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1hALJpVrmv4exa23B4ykQk60-AGNFiw6w"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1hALJpVrmv4exa23B4ykQk60-AGNFiw6w"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "May Flowers",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1X0BUeEgBSbXz-EpXnXm_NKidxmcvpA83",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1X0BUeEgBSbXz-EpXnXm_NKidxmcvpA83"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1X0BUeEgBSbXz-EpXnXm_NKidxmcvpA83"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Low Tide",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1UCj7Tta34mx6zTpS6_sYcWnhyuSyTV25",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1UCj7Tta34mx6zTpS6_sYcWnhyuSyTV25"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1UCj7Tta34mx6zTpS6_sYcWnhyuSyTV25"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Fresh Paint 3",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1Bx8VymlQBYN9IN8BdqcRsilyKA7Ms4-W",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<meta charset=\"utf-8\">\n\n<p><em>*This is a single maroon canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1Bx8VymlQBYN9IN8BdqcRsilyKA7Ms4-W"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<meta charset=\"utf-8\">\n\n<p><em>*This is a single maroon canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1Bx8VymlQBYN9IN8BdqcRsilyKA7Ms4-W"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Fresh Paint 2",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=1mJCU3zi9rM_SsoFO6Xa6CM6D-fsK63VX",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p><em>*This is a single blue canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1mJCU3zi9rM_SsoFO6Xa6CM6D-fsK63VX"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p><em>*This is a single blue canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=1mJCU3zi9rM_SsoFO6Xa6CM6D-fsK63VX"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "title": "Fresh Paint 1",
+            "user_image_url": "https://drive.google.com/uc?export=download&id=106HulmQSSmEZZo7m21jQgJ_pYidG0vjW",
+            "products": {
+                "global-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p><em>*This is a single black canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em><br></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<p><br></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-CAN-20x20-SQUARE-IW": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=106HulmQSSmEZZo7m21jQgJ_pYidG0vjW"
+                                }
+                            }
+                        }
+                    }
+                },
+                "global-fra-can": {
+                    "description": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n\n<p>Our abstract collection is the easiest way to turn any room into your favorite space. Canvases from this collection will have your guests impressed from the minute they walk in the room.</p>\n\n<p><em>*This is a single black canvas, set of three is available if you purchase all 3 'Fresh Paint' canvases. </em><br></p>\n\n<p>Art made by <strong>Fernando Vieira</strong></p>\n\n<p><br></p>\n\n<h6><b>MATERIAL &amp; QUALITY</b></h6>\n\n<p class=\"p1\"> </p>\n\n<ul class=\"ul1\">\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Hand stretched with love in our <b>Florida, USA</b> facility</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>All canvases are ready-to-hang with 1.5 inch sawtooth hangers. Just unwrap and hang right out of the box </li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>80% polyester, 20% cotton with matte finished wrap</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Fade, tear, water, scratch, and warp resistant</li>\n\n<li class=\"li1\">\n\n<span class=\"s1\"></span>Eco-certified premium water-based ink</li>\n\n</ul>\n\n<h6><b>Framing Options</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\"> <strong>Floating Frames</strong> have a floating effect to give your artwork a clean, sophisticated feel<br>\n\n</li>\n\n<li>\n\n<strong>Gallery Wraps</strong> are made with mirrored edges and stretched by hand by our experts. They are gallery wrapped over high-quality SPF wooden frames.</li>\n\n</ul>\n\n<h6><b>Delivery &amp; Shipping Details</b></h6>\n\n<ul>\n\n<li>\n\n<meta charset=\"utf-8\">All canvases are made-to-order in our Florida, USA facility<br>\n\n</li>\n\n<li>Processing Time: Typically 2-3 days</li>\n\n<li>Shipping Time: Typically 2-5 days</li>\n\n<li>Total Time: Typically 4-8 days</li>\n\n<li>Simply put, a maximum time of 8 days for any order during typical times. During holidays, there may be delayed shipments </li>\n\n</ul>\n\n<div>\n\n<h5></h5>\n\n</div>",
+                    "variants": {
+                        "GLOBAL-FRA-CAN-20x20-SQUARE": {
+                            "images": {
+                                "front": {
+                                    "user_image_url": "https://drive.google.com/uc?export=download&id=106HulmQSSmEZZo7m21jQgJ_pYidG0vjW"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    ]
+}
