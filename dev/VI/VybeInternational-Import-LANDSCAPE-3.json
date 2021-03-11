@@ -18,7 +18,7 @@
         "images": {
             "front": {
                 "image_arguments": {
-                    "rotate_degrees": 90
+                    "rotate": 90
                 }
             }
         }
