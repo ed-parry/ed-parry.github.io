@@ -16,7 +16,7 @@
     "variants_defaults": {
         "GLOBAL-PHO-12X12-PRO-SQUARE": {
             "enabled": true,
-            "retail_price": 0
+            "retail_price": 0.00
         }
     },
     "product_ranges": [
