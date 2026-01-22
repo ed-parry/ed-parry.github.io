@@ -1,0 +1,27 @@
+{{ define "main" }}
+<div class="stream">
+    {{ range .Site.RegularPages }}
+        {{ if .Title }}
+            <!-- Post with title: show title, first paragraph, and read more link -->
+            <article class="post titled-post">
+                <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" data-timestamp="{{ .Date.Unix }}"></time>
+                <div class="excerpt">
+                    {{ .Summary }}
+                </div>
+                {{ if .Truncated }}
+                    <a href="{{ .RelPermalink }}" class="read-more">Read more →</a>
+                {{ end }}
+            </article>
+        {{ else }}
+            <!-- Post without title: show inline -->
+            <article class="post inline-post">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" data-timestamp="{{ .Date.Unix }}"></time>
+                <div class="content">
+                    {{ .Content }}
+                </div>
+            </article>
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}
