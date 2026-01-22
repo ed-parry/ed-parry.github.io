@@ -11,3 +11,14 @@ theme = 'stream'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    pageRef = '/'
+    weight = 10
+
+  [[menus.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20

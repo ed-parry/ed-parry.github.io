@@ -1,2 +1,10 @@
-<h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<nav>
+  <a href="/" class="site-title">{{ site.Title }}</a>
+  <div>
+    {{- with index site.Menus "main" }}
+      {{- range . }}
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      {{- end }}
+    {{- end }}
+  </div>
+</nav>
