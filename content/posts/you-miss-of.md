@@ -1,7 +1,7 @@
 +++
 date = '2024-08-24T10:39:00Z'
 draft = false
-title = 'You miss 100% of the shots you don't take.'
+title = "You miss 100% of the shots you don't take."
 +++
 This resonates with me a lot at the moment. Working in Product I'm surrounded by smart people and ideas. I have a long list of incredibly brilliant product and business ideas that - if only I had the time - would surely be runaway successes. _Surely_.
 
