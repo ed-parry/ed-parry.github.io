@@ -4,7 +4,8 @@ draft = false
 title = 'About'
 +++
 
-<img src="/images/profile.jpg" alt="Ed Parry" class="about-photo">
+<!-- <img src="/images/profile.jpg" alt="Ed Parry" class="about-photo"> -->
+<!-- Add your profile photo by replacing /static/images/profile.jpg -->
 
 <div class="about-section">
 
