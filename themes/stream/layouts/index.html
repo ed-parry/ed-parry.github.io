@@ -1,6 +1,7 @@
 {{ define "main" }}
 <div class="stream">
-    {{ range .Site.RegularPages }}
+    {{ $posts := where .Site.RegularPages "Section" "posts" }}
+    {{ range $posts }}
         {{ if .Title }}
             <!-- Post with title: show title, first paragraph, and read more link -->
             <article class="post titled-post">
