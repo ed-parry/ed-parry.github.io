@@ -1,4 +1,4 @@
-baseURL = 'https://edparry.com/'
+baseURL = 'https://ed-parry.github.io/'
 languageCode = 'en-us'
 title = 'Ed Parry'
 theme = 'stream'
