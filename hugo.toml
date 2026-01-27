@@ -5,7 +5,7 @@ theme = 'stream'
 
 [params]
   author = 'Ed Parry'
-  description = 'Stream of thoughts'
+  description = 'What I write about what I think'
 
 [markup]
   [markup.goldmark]
@@ -13,11 +13,6 @@ theme = 'stream'
       unsafe = true
 
 [menus]
-  [[menus.main]]
-    name = 'Home'
-    pageRef = '/'
-    weight = 10
-
   [[menus.main]]
     name = 'About'
     pageRef = '/about'
