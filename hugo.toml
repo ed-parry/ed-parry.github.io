@@ -1,6 +1,6 @@
-baseURL = 'https://ed-parry.github.io/'
+baseURL = 'https://edparry.com/'
 languageCode = 'en-us'
-title = 'Ed Parry'
+title = 'Notes and nonsense, by Ed Parry'
 theme = 'stream'
 
 [params]

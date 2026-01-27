@@ -80,7 +80,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "https://ed-parry.github.io/"
+            --baseURL "https://edparry.com/"
 
       - name: Build successful
         run: echo "✅ Hugo build completed successfully!"
