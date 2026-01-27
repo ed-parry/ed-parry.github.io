@@ -10,9 +10,9 @@ body {
     line-height: 1.6;
     color: #1a1a1a;
     background: #f3efef;
-    max-width: 720px;
+    max-width: 680px;
+    padding: 2rem 0 0 0;
     margin: 0 auto;
-    padding: 2rem 1.5rem;
 }
 
 header {
@@ -38,10 +38,11 @@ article.post.inline-post::after {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
-    width: 50%;
-    left: 25%;
-    border-bottom: 1px solid #fa8072;
+    top: -50px;
+    width: 80%;
+    left: 10%;
+    border-bottom: 3px solid #fa807221;
+    border-radius: 10px;
 }
 
 nav a {
@@ -65,6 +66,7 @@ nav a:hover {
 
 article.post {
     position: relative;
+    margin-bottom: 60px;
 }
 
 /* Titled posts */
@@ -118,6 +120,17 @@ time {
     font-size: 0.85rem;
     color: #888;
     font-style: italic;
+    margin-bottom: 20px;
+}
+
+.inline-post time {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.titled-post time {
+    text-align: left;
+    margin-bottom: 0;
 }
 
 /* Single post page */
@@ -235,6 +248,15 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+footer{
+    background-color: #fa8072;
+    padding: 20px;
+    width: 100%;
+    margin-top: 80px;
+    border-radius: 4px 4px 0 0;
+    color: #ffeeee;
 }
 
 /* Responsive */
