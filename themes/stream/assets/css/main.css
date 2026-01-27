@@ -38,10 +38,11 @@ article.post.inline-post::after {
     content: '';
     display: block;
     position: absolute;
-    top: 0;
-    width: 50%;
-    left: 25%;
-    border-bottom: 1px solid #fa8072;
+    top: -50px;
+    width: 80%;
+    left: 10%;
+    border-bottom: 3px solid #fa807221;
+    border-radius: 10px;
 }
 
 nav a {
@@ -65,6 +66,7 @@ nav a:hover {
 
 article.post {
     position: relative;
+    margin-bottom: 60px;
 }
 
 /* Titled posts */
@@ -118,6 +120,11 @@ time {
     font-size: 0.85rem;
     color: #888;
     font-style: italic;
+    text-align: center;
+}
+
+.titled-post time {
+    text-align: left;
 }
 
 /* Single post page */
