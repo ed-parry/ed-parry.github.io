@@ -237,6 +237,150 @@ time {
     color: #2a2a2a;
 }
 
+/* New About Page Design */
+.about-header {
+    margin-bottom: 3rem;
+}
+
+.about-label {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin-bottom: 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+
+.about-header h1 {
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+    line-height: 1.1;
+    color: #1a1a1a;
+}
+
+.about-subtitle {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #4a4a4a;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+
+.about-intro-grid {
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: start;
+}
+
+.intro-main p,
+.intro-sidebar p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+.about-timeline {
+    margin-bottom: 4rem;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-marker {
+    position: absolute;
+    left: 0;
+    top: 0.5rem;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fa8072;
+    border: 3px solid #f3efef;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1.5rem;
+    width: 2px;
+    height: calc(100% + 1rem);
+    background: linear-gradient(to bottom, #fa8072, transparent);
+}
+
+.timeline-item:last-child::before {
+    display: none;
+}
+
+.timeline-year {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+}
+
+.timeline-content h3 {
+    font-size: 1.3rem;
+    margin: 0.25rem 0 0.5rem 0;
+    color: #2a2a2a;
+    font-weight: 500;
+}
+
+.timeline-content p {
+    color: #4a4a4a;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.about-site-info {
+    margin-bottom: 3rem;
+}
+
+.about-site-info p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-header h1 {
+        font-size: 2.25rem;
+    }
+
+    .about-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .about-intro-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .timeline-item {
+        padding-left: 2rem;
+    }
+
+    .timeline-marker {
+        width: 10px;
+        height: 10px;
+        left: -1px;
+    }
+
+    .timeline-item::before {
+        left: 4px;
+    }
+}
+
 h3{
     margin-top: 20px;
 }
