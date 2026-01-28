@@ -108,6 +108,7 @@ article.post {
 .inline-post .content {
     margin-top: 0.5rem;
     color: #2a2a2a;
+    overflow: auto;
 }
 
 .inline-post .content p {
@@ -126,6 +127,9 @@ time {
 .inline-post time {
     text-align: center;
     margin-bottom: 0;
+    clear: both;
+    width: 100%;
+    display: block;
 }
 
 .titled-post time {
@@ -144,8 +148,16 @@ time {
     line-height: 1.2;
 }
 
+.single-post time {
+    display: block;
+    text-align: center;
+    clear: both;
+    width: 100%;
+}
+
 .single-post .content {
     margin-top: 1.5rem;
+    overflow: auto;
 }
 
 .single-post .content p {
@@ -207,9 +219,10 @@ time {
 
 /* Book Tile */
 .book-tile {
-    margin: 1.5rem 0;
+    float: left;
+    margin: 0 1.5rem 1rem 0;
     display: inline-block;
-    max-width: 100%;
+    max-width: 300px;
     font-family: 'DM Serif Text', serif;
 }
 
@@ -264,7 +277,6 @@ time {
     font-weight: 600;
     line-height: 1.3;
     color: #1a1a1a;
-    margin-bottom: 0.4rem;
 }
 
 .book-tile-author {
@@ -287,6 +299,12 @@ time {
 }
 
 @media (max-width: 600px) {
+    .book-tile {
+        float: none;
+        margin: 1.5rem 0;
+        max-width: 100%;
+    }
+
     .book-tile-content {
         gap: 0.75rem;
     }
