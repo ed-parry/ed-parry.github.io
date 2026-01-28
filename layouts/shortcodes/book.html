@@ -1,0 +1,30 @@
+{{- $title := .Get "title" -}}
+{{- $author := .Get "author" -}}
+{{- $cover := .Get "cover" -}}
+{{- $link := .Get "link" -}}
+{{- $year := .Get "year" -}}
+
+{{- if and $title $author $cover -}}
+<div class="book-tile">
+  {{- if $link -}}
+  <a href="{{ $link }}" class="book-tile-link" target="_blank" rel="noopener noreferrer">
+  {{- end -}}
+    <div class="book-tile-content">
+      <div class="book-tile-cover">
+        <img src="{{ $cover }}" alt="Cover of {{ $title }}" loading="lazy">
+      </div>
+      <div class="book-tile-info">
+        <div class="book-tile-title">{{ $title }}</div>
+        <div class="book-tile-author">{{ $author }}</div>
+        {{- if $year -}}<div class="book-tile-year">{{ $year }}</div>{{- end -}}
+      </div>
+    </div>
+  {{- if $link -}}
+  </a>
+  {{- end -}}
+</div>
+{{- else -}}
+<div class="book-tile-error">
+  <p>Book tile requires title, author, and cover parameters.</p>
+</div>
+{{- end -}}
