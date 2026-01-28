@@ -28,10 +28,10 @@
         {{ else }}
             <!-- Post without title: show inline -->
             <article class="post inline-post">
+                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" data-timestamp="{{ .Date.Unix }}"></time>
                 <div class="content">
                     {{ .Content }}
                 </div>
-                <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" data-timestamp="{{ .Date.Unix }}"></time>
             </article>
         {{ end }}
     {{ end }}
