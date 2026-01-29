@@ -183,9 +183,7 @@ article.post {
 
 .quote-post .quote-commentary {
     margin-top: 1.25rem;
-    padding-left: 2rem;
-    color: #4a4a4a;
-    font-size: 0.95rem;
+    color: #2a2a2a;
 }
 
 .quote-post .quote-commentary p {
