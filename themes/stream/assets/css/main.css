@@ -147,6 +147,49 @@ article.post {
     margin-bottom: 0.75rem;
 }
 
+/* Quote posts */
+.quote-post {
+    position: relative;
+}
+
+.quote-post .quote-block {
+    margin-top: 0.5rem;
+    padding: 1.5rem 2rem;
+    background: #fefefe;
+    border-left: 4px solid #fa8072;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #2a2a2a;
+    font-style: italic;
+}
+
+.quote-post .quote-block p {
+    margin-bottom: 1rem;
+}
+
+.quote-post .quote-block p:last-child {
+    margin-bottom: 0;
+}
+
+.quote-post .quote-block cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-style: normal;
+    color: #888;
+    font-weight: 500;
+}
+
+.quote-post .quote-commentary {
+    margin-top: 1.25rem;
+    color: #2a2a2a;
+}
+
+.quote-post .quote-commentary p {
+    margin-bottom: 0.75rem;
+}
+
 /* Timestamps */
 time {
     display: block;
