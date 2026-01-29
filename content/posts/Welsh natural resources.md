@@ -1,9 +1,9 @@
 +++
 date = '2026-01-29T06:00:00Z'
 draft = false
-quote = 'Wales stands at a critical moment as our economy continues to degrade the natural resources that underpin our health, security, and prosperity. Wales is one of the most nature depleted countries in the world, with almost 1 out of 5 species at risk of extinction.
+quote = '''Wales stands at a critical moment as our economy continues to degrade the natural resources that underpin our health, security, and prosperity. Wales is one of the most nature depleted countries in the world, with almost 1 out of 5 species at risk of extinction.
 
-Wales’ consumption levels far exceed sustainable limits. If replicated globally, our resource use would require more than two Earths, demonstrating the amount of natural resources we import, all accompanied by impacts on other countries'
+Wales' consumption levels far exceed sustainable limits. If replicated globally, our resource use would require more than two Earths, demonstrating the amount of natural resources we import, all accompanied by impacts on other countries'''
 author = 'State of Natural Resources Report 2025'
 +++
 
