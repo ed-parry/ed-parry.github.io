@@ -4,7 +4,7 @@ draft = false
 title = 'We still don't know how to trust our agents'
 +++
 
-I recently read an essay by Alan Kay from 1989 that originally featured in . This was essentially before the internet, before smartphones, and long before any of the AI assistants we now use daily. And yet it describes the exact problem we're still trying to solve.
+I recently read an [essay by Alan Kay](http://www.vpri.org/pdf/hc_user_interface.pdf) from 1989 that originally featured in The Art of Human-Computer Interface Design, edited by Brenda Laurel. This was essentially before the internet, before smartphones, and long before any of the AI assistants we now use daily. And yet it describes the exact problem we're still trying to solve.
 
 Kay makes a distinction I haven't seen articulated as clearly anywhere else. Humans have extended themselves in two ways throughout history.
 
@@ -18,7 +18,7 @@ This has been something that I've been thinking about this as I've played with v
 
 This is essentially the gap Kay identified. We're trying to apply tool-based expectations to something that requires a completely different interaction pattern.
 
-Kay wrote that the thing we most want to know about an agent is not how powerful it is, but how trustable it is. The agent must explain itself well enough so that we have confidence it's working for us rather than as what he calls an "escaped genie."
+Kay wrote that the thing we most want to know about an agent is not how powerful it is, but how trustable it is. The agent must explain itself well enough so that we have confidence it's working for us rather than as what he calls an escaped genie.
 
 He predicted agent development would move in two directions. First, expanding into domains where mistakes don't matter much. Where undo is easy. These would move fast. The second direction would move slowly. Domains where undo is hard or impossible. Where mistakes affect real relationships or irreversible decisions.
 
