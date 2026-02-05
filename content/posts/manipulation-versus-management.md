@@ -1,7 +1,7 @@
 +++
 date = '2026-02-05T18:15:00Z'
 draft = false
-title = 'We still don't know how to trust our agents'
+title = 'Manipulation versus management, tools versus agents'
 +++
 
 I recently read an [essay by Alan Kay](http://www.vpri.org/pdf/hc_user_interface.pdf) from 1989 that originally featured in The Art of Human-Computer Interface Design, edited by Brenda Laurel. This was essentially before the internet, before smartphones, and long before any of the AI assistants we now use daily. And yet it describes the exact problem we're still trying to solve.
