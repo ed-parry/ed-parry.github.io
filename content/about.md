@@ -21,6 +21,8 @@ layout = 'about'
   <div class="intro-sidebar">
     <p class="about-label">CURRENTLY</p>
     <p>I'm exploring how automation and AI can be applied practically within product and operations as a way to eliminate repetitive work and free up time for higher-value thinking.</p>
+    <p class="about-label">CONTACT</p>
+    <p>Don't be a stranger. If you're here, why not say hello? I'm not particularly active on any social media.</p><p>Good old fashioned <a href="mailto:site@edparry.com">email is best</a>.</p>
   </div>
 </div>
 

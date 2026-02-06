@@ -577,6 +577,10 @@ h3{
     margin-top: 20px;
 }
 
+p{
+    margin-bottom: 20px;
+}
+
 /* Links */
 a {
     color: #fa8072;
