@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Today's Signal</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville+SC&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #f4f1ea;
+    color: #2b2b2b;
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 14px;
+    line-height: 1.5;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* === HEADER === */
+  .masthead {
+    text-align: center;
+    border-bottom: 4px double #2b2b2b;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+
+  .masthead-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    font-style: italic;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  .newspaper-name {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-variant: small-caps;
+    font-size: 64px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    margin: 5px 0;
+  }
+
+  .tagline {
+    font-style: italic;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  /* === WEATHER BAR === */
+  .weather-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background: #2b2b2b;
+    color: #f4f1ea;
+    padding: 8px 20px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+  }
+
+  .weather-bar .divider {
+    color: #888;
+  }
+
+  .weather-bar strong {
+    font-weight: 700;
+  }
+
+  /* === LAYOUT === */
+  .main-content {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+  }
+
+  .news-column {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  .briefing-column {
+    grid-column: 2;
+  }
+
+  .sidebar {
+    grid-column: 2;
+  }
+
+  /* === NEWS COLUMN === */
+  .news-column {
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+  }
+
+  .lead-story {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .lead-story h2 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 1.15;
+    margin-bottom: 8px;
+  }
+
+  .lead-story h2 a {
+    color: #2b2b2b;
+    text-decoration: none;
+  }
+
+  .lead-story h2 a:hover { text-decoration: underline; }
+
+  .lead-story .source {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #888;
+    margin-bottom: 5px;
+  }
+
+  .lead-published {
+    font-size: 11px;
+    color: #888;
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  .lead-story .summary {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #444;
+  }
+
+  .lead-story-body {
+    display: flex;
+    gap: 15px;
+  }
+
+  .lead-story-body .summary {
+    flex: 1;
+  }
+
+  .lead-story .lead-image {
+    width: 50%;
+    height: 240px;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  .news-item-with-thumb {
+    display: flex;
+    gap: 10px;
+  }
+
+  .news-item-with-thumb .thumb {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-top: 18px;
+  }
+
+  .news-item-with-thumb .news-item-text {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .news-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  .news-single {
+    display: block;
+  }
+
+  .news-item {
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .news-item .source {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #999;
+    margin-bottom: 3px;
+  }
+
+  .news-item h3 {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 4px;
+  }
+
+  .news-item h3 a {
+    color: #2b2b2b;
+    text-decoration: none;
+  }
+
+  .news-item h3 a:hover { text-decoration: underline; }
+
+  .news-item .summary {
+    font-size: 12px;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  /* === SIDEBAR === */
+  .sidebar, .briefing-column {
+    font-size: 13px;
+  }
+
+  .sidebar-section {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .sidebar-section:last-child {
+    border-bottom: none;
+  }
+
+  .section-title {
+    font-family: 'Libre Baskerville', Georgia, serif;
+    font-size: 16px;
+    font-weight: 700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    border-bottom: 2px solid #2b2b2b;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+
+  /* HN */
+  .hn-list {
+    list-style: none;
+    counter-reset: hn;
+  }
+
+  .hn-list li {
+    counter-increment: hn;
+    padding: 5px 0;
+    border-bottom: 1px dotted #ddd;
+    line-height: 1.35;
+  }
+
+  .hn-list li::before {
+    content: counter(hn) ".";
+    font-weight: 700;
+    font-size: 11px;
+    color: #999;
+    margin-right: 5px;
+  }
+
+  .hn-list a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 12.5px;
+  }
+
+  .hn-list a:hover { text-decoration: underline; }
+
+  .hn-meta {
+    font-size: 10px;
+    color: #999;
+  }
+
+  .hn-meta a {
+    color: #999;
+    font-size: 10px;
+  }
+
+  .calendar-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 8px;
+    margin-bottom: 4px;
+  }
+
+  /* RSS */
+  .rss-item {
+    padding: 4px 0;
+    border-bottom: 1px dotted #ddd;
+  }
+
+  .rss-item a {
+    color: #2b2b2b;
+    text-decoration: none;
+    font-size: 12.5px;
+    line-height: 1.35;
+  }
+
+  .rss-item a:hover { text-decoration: underline; }
+
+  .rss-source {
+    font-size: 10px;
+    color: #999;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* === FOOTER === */
+  .footer {
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    font-style: italic;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 2px solid #2b2b2b;
+  }
+
+  .section-break {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #2b2b2b;
+  }
+
+  .briefing-content {
+    font-size: 12.5px;
+    line-height: 1.5;
+    color: #333;
+    white-space: pre-line;
+  }
+
+  .no-items {
+    font-style: italic;
+    color: #999;
+    font-size: 12px;
+  }
+
+  /* === MOBILE === */
+  @media (max-width: 768px) {
+    body { padding: 12px; font-size: 13px; }
+
+    .newspaper-name { font-size: 36px; letter-spacing: 1px; }
+    .masthead-top { font-size: 10px; }
+
+    .weather-bar {
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      padding: 8px 12px;
+      font-size: 11px;
+      justify-content: flex-start;
+    }
+
+    .main-content {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .briefing-column { order: 1; grid-column: 1; }
+    .news-column {
+      order: 2;
+      grid-column: 1;
+      grid-row: auto;
+      border-right: none;
+      padding-right: 0;
+    }
+    .sidebar { order: 3; grid-column: 1; }
+
+
+    .lead-story h2 { font-size: 24px; }
+    .lead-story .lead-image { width: 100%; height: 180px; }
+    .lead-story-body { flex-direction: column; }
+
+    .news-grid { grid-template-columns: 1fr; }
+
+    .section-title { font-size: 14px; }
+  }
+
+  /* Print */
+  @media print {
+    body { background: white; padding: 0; }
+    .weather-bar { background: #333; }
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="masthead-top">
+    <span>Cardiff &bull; Evening Edition</span>
+    <span></span>
+    <span>Updated 19:43</span>
+  </div>
+  <h1 class="newspaper-name">Today's Signal</h1>
+  <div class="masthead-top">
+    <span>Wednesday, March 25, 2026</span>
+    <span></span>
+    <span>Vol. I &middot; Locally Compiled</span>
+  </div>
+</header>
+
+<!-- WEATHER BAR -->
+<div class="weather-bar">
+  
+    <span><strong>Cardiff</strong></span>
+    <span class="divider">|</span>
+    <span>6.3&deg;C &mdash; Clear sky</span>
+    <span class="divider">|</span>
+    <span>H: 8.8&deg; / L: 4.8&deg;</span>
+    <span class="divider">|</span>
+    <span>Rain: 65%</span>
+    <span class="divider">|</span>
+    <span>Pollen: Low</span>
+    <span class="divider">|</span>
+    <span>Air Quality: Fair (37)</span>
+  
+</div>
+
+<div class="main-content">
+  <!-- LEFT: NEWS -->
+  <div class="news-column">
+    
+      <!-- Lead story -->
+      <div class="lead-story">
+        <h2><a href="https://www.ft.com/content/108ece44-f262-4b90-b2ad-742add22efcf">Iran’s military leaders dismiss Trump’s deal claims</a></h2>
+        <div class="lead-published">Financial Times &middot; Wed 25 Mar, 17:41</div>
+        <div class="lead-story-body">
+          <div class="summary">Military command says it will not ‘come to terms’ with US after Washington presents 15-point plan to end war</div>
+          
+            <img class="lead-image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F61021f84-8b3b-45b6-9416-94120e4997d6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down" alt="">
+          
+        </div>
+      </div>
+
+      <!-- News grid -->
+      <div class="news-grid">
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Financial Times</div>
+            <h3><a href="https://www.ft.com/content/e35ce13e-0e11-4363-9e6c-bcdd963404fb">Oil volatile as Iran lays out own terms to end conflict</a></h3>
+            <div class="summary">Tehran rejects Washington’s ceasefire proposal as ‘excessive’, according to state TV</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Financial Times</div>
+            <h3><a href="https://www.ft.com/content/fdb6c197-f653-4a2a-848f-e182da269784">Iraq summons US envoy over ‘heinous’ strike</a></h3>
+            <div class="summary">Baghdad calls bombing of military base, which killed seven Iraqi soldiers, a violation of international law</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Financial Times</div>
+            <h3><a href="https://www.ft.com/content/187deed0-f1c0-4eb0-a017-ac59dc30750a">How a US assault on Kharg Island could unfold</a></h3>
+            <div class="summary">Seizing Iran’s oil export hub by sea or air would choke regime but risks dragging American troops into open-ended conflict</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Financial Times</div>
+            <h3><a href="https://www.ft.com/content/a2dbcb98-1e95-4070-a5c8-fc7604477904">Dane who lit up outside White House ‘real winner’ of elections</a></h3>
+            <div class="summary">Foreign minister Lars Løkke Rasmussen emerges as kingmaker in any potential coalition government</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC News</div>
+            <h3><a href="https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&at_campaign=rss">Meta and YouTube found liable in landmark social media addiction trial</a></h3>
+            <div class="summary">A woman has been awarded $3m in a verdict that could have implications for hundreds of other cases in the US.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC News</div>
+            <h3><a href="https://www.bbc.com/news/articles/c5ywd4gdzk1o?at_medium=RSS&at_campaign=rss">Dead students were tested for drugs and alcohol - but their killer was not, Nottingham inquiry hears</a></h3>
+            <div class="summary">A public inquiry into the attacks heard killer Valdo Calocane refused toxicology samples in custody.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC News</div>
+            <h3><a href="https://www.bbc.com/news/articles/c62j7jx910go?at_medium=RSS&at_campaign=rss">Doctors announce six-day strike in England as talks break down</a></h3>
+            <div class="summary">The walkout over jobs and pay is one of the longest yet in the dispute, and will begin on 7 April in England.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC News</div>
+            <h3><a href="https://www.bbc.com/news/articles/c20356v74k7o?at_medium=RSS&at_campaign=rss">'Teenage me could not have imagined this' says first female Archbishop of Canterbury</a></h3>
+            <div class="summary">The Prince and Princess of Wales joined the congregation at Canterbury Cathedral.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Economist</div>
+            <h3><a href="https://news.google.com/rss/articles/CBMitAFBVV95cUxNQWtoekFsOE8zMjhSblBtOXJtM0VKT0VCWndyTmQyRnpJR29SNXlWTy02czIzS1Y5cEtZbTlzRVBRaHFKTVhPUmFLOEo1SGZzb203bV8xVVJ1X28yZzloYldJZDlBZjluem1ScVZkZFRRaFpnazYxQU1RampWMk0tVThHeF93aWNOWHZ0V05NZG8yeUROVGRpb3F3TXp4UFBLdUxhdmxZczVlY3pHMFJ6dUpON3o?oc=5">Markets are gripped by an alarming cognitive dissonance</a></h3>
+            <div class="summary">Markets are gripped by an alarming cognitive dissonance  The Economist</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Economist</div>
+            <h3><a href="https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYVhUTTlEYkFkd1M4VGNncmdRUFlnNlhuUTlKWk4zZUVJOGozM3NSUl9mTGZmdXRSal9wVWRfSHotSm9NbGVvVGVlcHNfcXF2U0dpeHJhcTA3OTRPclRYT0xibVYybENQeE9oVUJhMVp2bnBIdDdPVFM2bWtmTG5IcjlybG4zcldpdUItNjhSXzRpLTFZSjZaTXVrekpQaWdQWjVIdDA0S2VWZw?oc=5">What a battle to reopen the Strait of Hormuz would look like</a></h3>
+            <div class="summary">What a battle to reopen the Strait of Hormuz would look like  The Economist</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">NYT Europe</div>
+            <h3><a href="https://www.nytimes.com/2026/03/25/world/europe/denmark-elections-pigs-frederiksen.html">In Denmark, It’s All About the Pigs</a></h3>
+            <div class="summary">In Denmark’s election, it was local issues, not Greenland or foreign policy, that counted. That hurt the prime...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">NYT Europe</div>
+            <h3><a href="https://www.nytimes.com/2026/03/25/world/europe/matt-brittin-bbc-director-general.html">Matt Brittin, Former Google Executive, Named the New BBC Head</a></h3>
+            <div class="summary">Matt Brittin, the former president of Google in Europe, will become the new director general. Among the items on his...</div>
+          </div>
+        </div>
+        
+      </div>
+    
+
+    <!-- Wales -->
+    
+    <div class="section-break">
+      <div class="section-title">Wales</div>
+      <div class="news-grid">
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Wales</div>
+            <h3><a href="https://www.bbc.com/news/articles/cdxd9l51wjqo?at_medium=RSS&at_campaign=rss">Woman-hating teen shared murder plans on Discord before killing mum</a></h3>
+            <div class="summary">Tristan Roberts waited until he was 18 to buy knives, hammers and axes before murdering his mother.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Wales</div>
+            <h3><a href="https://www.bbc.com/news/articles/c4g6zn91mrpo?at_medium=RSS&at_campaign=rss">Disgraced newsreader Huw Edwards criticises Channel 5 drama on events leading to his conviction</a></h3>
+            <div class="summary">The two-part series depicting events leading to the former BBC presenter's conviction airs on Tuesday.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Wales</div>
+            <h3><a href="https://www.bbc.com/news/articles/c86ewwlzey5o?at_medium=RSS&at_campaign=rss">Reform candidate quits party amid 'parachuting' row</a></h3>
+            <div class="summary">It comes as party sources suggest there is anger over putting people into seats from outside the area.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Wales</div>
+            <h3><a href="https://www.bbc.com/news/articles/cwy3411j2gzo?at_medium=RSS&at_campaign=rss">Rob Brydon to star in unlikely house share comedy series</a></h3>
+            <div class="summary">The Gavin and Stacey star has begun filming his latest project, Bill's Included.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- Sport -->
+    
+    <div class="section-break">
+      <div class="section-title">Sport</div>
+      <div class="news-grid">
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Sport &middot; Football</div>
+            <h3><a href="https://www.bbc.com/sport/football/articles/c86ew5d52d9o?at_medium=RSS&at_campaign=rss">Saudi Pro League, the US or Europe - what are Salah's options?</a></h3>
+            <div class="summary">Liverpool reporter Aadam Patel analyses what Mohamed Salah's next move might be following the forward's announcement...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Sport &middot; Football</div>
+            <h3><a href="https://www.bbc.com/sport/football/articles/cy01n951evwo?at_medium=RSS&at_campaign=rss">Liverpool & Wales great Toshack diagnosed with dementia</a></h3>
+            <div class="summary">One of the icons of Welsh and Liverpool football has been diagnosed with dementia, his son Cameron Toshack confirms.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Sport &middot; Basketball</div>
+            <h3><a href="https://www.bbc.com/sport/basketball/articles/c0q90903ekwo?at_medium=RSS&at_campaign=rss">NBA explores adding teams in Seattle and Las Vegas</a></h3>
+            <div class="summary">The NBA's board of governors vote to allow the league to explore potential expansion franchises in Seattle and Las Vegas.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">BBC Sport &middot; Athletics</div>
+            <h3><a href="https://www.bbc.com/sport/athletics/articles/cqxl8yn4gxwo?at_medium=RSS&at_campaign=rss">London Marathon considers two-day event in 2027</a></h3>
+            <div class="summary">London Marathon organisers are "looking at the intention" for next year's event to take place across two days.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Race &middot; F1</div>
+            <h3><a href="https://www.the-race.com/formula-1/mercedes-buying-into-another-team-would-be-bad-news-for-f1/">Mercedes buying into another team would be bad news for F1</a></h3>
+            <div class="summary">Mercedes buying into another F1 team would not be a good look for the championship</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Race &middot; F1</div>
+            <h3><a href="https://www.the-race.com/formula-1/f1-has-a-clear-priority-fix-for-first-major-2026-rule-changes/">F1 has a clear priority for post-Japanese GP rule changes</a></h3>
+            <div class="summary">F1 bosses have a clear priority fix for the planned post-Japanese GP rule changes</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Race</div>
+            <h3><a href="https://www.the-race.com/formula-1/alonso-to-miss-japanese-gp-thursday-with-first-child-due/">Alonso to miss Japanese GP Thursday with first child due</a></h3>
+            <div class="summary">Fernando Alonso is to arrive a day late to F1's Japanese GP as he awaits the birth of his first child</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Race &middot; F1</div>
+            <h3><a href="https://www.the-race.com/formula-1/japanese-gp-last-f1-2026-race-for-five-weeks-key-questions/">Seven key questions for F1's Japanese GP</a></h3>
+            <div class="summary">F1's short-notice cancellations makes the Japanese Grand Prix the last race weekend for ages. Here's what's at stake</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">ESPN Cricinfo</div>
+            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529158.html?ex_cid=OTC-RSS">Selecting the Selector proves tricky as ECB find options thin on the ground</a></h3>
+            <div class="summary">Rob Key begins hunt for Luke Wright's successor, but challenges abound over role's remit</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">ESPN Cricinfo</div>
+            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529163.html?ex_cid=OTC-RSS">Prithvi Shaw: 'I needed a break to make myself mentally strong'</a></h3>
+            <div class="summary">Back with Delhi Capitals after going unsold at the IPL 2025 auction, Shaw will compete with Nissanka and Porel to...</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- Science -->
+    
+    <div class="section-break">
+      <div class="section-title">Science</div>
+      <div class="news-grid">
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2520849-the-brains-cleaning-system-can-be-boosted-to-rid-alzheimers-proteins/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">The brain's cleaning system can be boosted to rid Alzheimer's proteins</a></h3>
+            <div class="summary">A duo of drugs that boosts our glympathic system, which clears waste from our brain, also improves the removal of...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2520476-oldest-known-dog-extends-the-genetic-history-of-our-canine-companions/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Oldest known dog extends the genetic history of our canine companions</a></h3>
+            <div class="summary">The remains of dogs from more than 14,000 years ago have been found in Turkey and the UK, revealing that...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">How working out like an astronaut can reduce back pain and slow ageing</a></h3>
+            <div class="summary">The same principles that help astronauts stay strong in microgravity can help us all resist the slow collapse of...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2520756-landmark-experiment-reveals-a-big-unexpected-problem-with-cloning/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Landmark experiment reveals a big unexpected problem with cloning</a></h3>
+            <div class="summary">A 20-year study has shown that, like photocopying photocopies, cloning doesn't produce perfect copies – with big...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Nature</div>
+            <h3><a href="https://www.nature.com/articles/s41586-026-10355-4">Retraction Note: Multisensory learning binds neurons into a cross-modal memory engram</a></h3>
+            <div class="summary">Nature, Published online: 25 March 2026; doi:10.1038/s41586-026-10355-4Retraction Note: Multisensory learning binds...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Nature</div>
+            <h3><a href="https://www.nature.com/articles/d41586-026-00976-0">Why insects aren't huge: a new challenge to a decades-old idea</a></h3>
+            <div class="summary">Nature, Published online: 25 March 2026; doi:10.1038/d41586-026-00976-0Evidence suggests oxygen levels may not have...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Nature</div>
+            <h3><a href="https://www.nature.com/articles/d41586-026-00423-0">Can China keep up its extraordinary research growth?</a></h3>
+            <div class="summary">Nature, Published online: 25 March 2026; doi:10.1038/d41586-026-00423-0Evidence of a pivot towards other sources of...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Nature</div>
+            <h3><a href="https://www.nature.com/articles/s41586-026-10112-7">Genomic history of early dogs in Europe</a></h3>
+            <div class="summary">Nature, Published online: 25 March 2026; doi:10.1038/s41586-026-10112-7Genome-wide analysis shows European dogs...</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!-- Technology -->
+    
+    <div class="section-break">
+      <div class="section-title">Technology</div>
+      <div class="news-grid">
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/gadgets/900490/nintendo-switch-2-controllers-games-amazon-big-spring-sale-2026-deals">Woot is offering over 20 percent off Switch 2 controllers and games today</a></h3>
+            <div class="summary">Woot is running a day-long sale coinciding with the start of Amazon’s Big Spring Sale. Many products across multiple...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/column/900536/alliance-for-a-better-future-polymarket">Can you monitor a situation without monitors? The Polymarket sports bar tried</a></h3>
+            <div class="summary">Hello and welcome to Regulator, a newsletter for Verge readers who are political junkies, and Washington insiders...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/tech/899906/fcc-router-ban-march-2026-explainer">The United States router ban, explained</a></h3>
+            <div class="summary">You've probably heard the US government has banned foreign-made consumer Wi-Fi routers over national security fears....</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/policy/900654/meta-google-instagram-youtube-social-media-addiction-trial-kgm-jury-decision">Meta and YouTube found negligent in landmark social media addiction case</a></h3>
+            <div class="summary">The jury in a landmark trial testing claims about social media addiction against Meta's Instagram and Google's...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Wired</div>
+            <h3><a href="https://www.wired.com/story/theres-something-very-dark-about-a-lot-of-those-viral-ai-fruit-videos/">There’s Something Very Dark About a Lot of Those Viral AI Fruit Videos</a></h3>
+            <div class="summary">From female fruit being fart-shamed or even sexually assaulted, there’s a misogynistic undercurrent to the fruit...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Wired</div>
+            <h3><a href="https://www.wired.com/story/openclaw-ai-agent-manipulation-security-northeastern-study/">OpenClaw Agents Can Be Guilt-Tripped Into Self-Sabotage</a></h3>
+            <div class="summary">In a controlled experiment, OpenClaw agents proved prone to panic and vulnerable to manipulation. They even disabled...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Wired</div>
+            <h3><a href="https://www.wired.com/story/the-last-comedy-club-at-the-end-of-the-metaverse/">The Comedy Club at the End of the Metaverse</a></h3>
+            <div class="summary">“This is my home”: At a VR comedy club in Horizon Worlds, users mourn Meta's plans for the platform.</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Wired</div>
+            <h3><a href="https://www.wired.com/story/jbl-bar500mk2-deal-326/">Save $100 on Our Favorite Soundbar and Subwoofer Combo</a></h3>
+            <div class="summary">The JBL Bar 500MK2 boasts Dolby Atmos support and easy setup and streaming.</div>
+          </div>
+        </div>
+        
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 522 pts</div>
+            <h3><a href="https://rpastro.square.site/s/stories/phm">My astrophotography in the movie Project Hail Mary</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 224 pts</div>
+            <h3><a href="https://www.nytimes.com/2026/03/25/technology/social-media-trial-verdict.html">Meta and YouTube Found Negligent in Landmark Social Media Addiction Case</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 293 pts</div>
+            <h3><a href="https://ente.com/blog/ensu/">Ensu – Ente’s Local LLM app</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 79 pts</div>
+            <h3><a href="https://ngrok.com/blog/quantization">Quantization from the Ground Up</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 39 pts</div>
+            <h3><a href="https://github.blog/news-insights/company-news/updates-to-github-copilot-interaction-data-usage-policy/">Updates to GitHub Copilot interaction data usage policy</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 386 pts</div>
+            <h3><a href="https://mariozechner.at/posts/2026-03-25-thoughts-on-slowing-the-fuck-down/">Thoughts on slowing the fuck down</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 429 pts</div>
+            <h3><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 227 pts</div>
+            <h3><a href="https://www.nature.com/articles/d41586-026-00950-w">Antimatter has been transported for the first time</a></h3>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+  </div>
+
+  <!-- BRIEFING (own grid item for mobile reordering) -->
+  
+  <div class="briefing-column">
+    <div class="sidebar-section">
+      <div class="section-title">The Briefing</div>
+      <div class="briefing-content">The tech world's having a landmark moment as Meta and YouTube were found liable in a groundbreaking social media addiction case, with one woman awarded $3 million. This could open the floodgates for hundreds of similar cases and fundamentally change how platforms handle user engagement algorithms - definitely worth watching how this impacts product liability thinking across the industry. Meanwhile, there's encouraging medical research on your radar: a new study shows hydroxychloroquine may help prevent congenital heart block in pregnant women with positive anti-Ro/SSA antibodies, and another 20-year cohort study is mapping the association between maternal antibody levels and CHB risk more precisely.
+
+Closer to home, the BBC has a new boss in Matt Brittin, Google's former Europe president, which could signal interesting changes in how the corporation approaches digital transformation. Welsh politics is getting messy with Reform seeing candidate departures over "parachuting" controversies, while doctors are announcing a six-day strike starting April 7th - the longest yet in the current dispute. On the lighter side, Fernando Alonso's missing the Japanese GP because his first child is due (lovely priorities!), and Rob Brydon's got a new comedy series coming. The Middle East tensions are keeping oil markets jumpy, but unless you're heavily exposed to energy costs in your supply chain, it's more of a macro backdrop than immediate concern.</div>
+    </div>
+  </div>
+  
+
+  <!-- RIGHT: SIDEBAR -->
+  <div class="sidebar">
+
+    <!-- Reading List -->
+    
+    <div class="sidebar-section">
+      <div class="section-title">Reading List</div>
+      
+      <div class="rss-item">
+        <a href="https://world.hey.com/dhh/basecamp-becomes-agent-accessible-3ae6b949">Basecamp becomes agent accessible</a>
+        <span class="rss-source">David Heinemeier Hansson</span>
+        <div class="summary" style="font-size:11px; margin-top:2px;">In the past 18 months, we've experimented with a ton of AI-infused features at 37signals. <a...</div>
+      </div>
+      
+      <div class="rss-item">
+        <a href="https://stratechery.com/2026/arm-launches-own-cpu-arms-motivation-constraints-and-systems/">Arm Launches Own CPU, Arm’s Motivation, Constraints and Systems</a>
+        <span class="rss-source">Stratechery</span>
+        <div class="summary" style="font-size:11px; margin-top:2px;">Arm is selling its own chips, not just licensing IP. It's a big change compared to Arm's...</div>
+      </div>
+      
+    </div>
+    
+
+    <!-- Scientific Papers -->
+    
+    <div class="sidebar-section">
+      <div class="section-title">Scientific Papers</div>
+      
+      <div class="papers-subsection">
+        <div class="calendar-label">Computer science</div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22287">Founder effects shape the evolutionary dynamics of multimodality in open LLM families</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22288">Evaluating Prompting Strategies for Chart Question Answering with Large Language Models</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22289">MERIT: Memory-Enhanced Retrieval for Interpretable Knowledge Tracing</a>
+        </div>
+        
+      </div>
+      
+      <div class="papers-subsection">
+        <div class="calendar-label">Economics</div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22356">Animal Welfare and Policy Risk Index (AWPRI): Constructing and Validating a Cross-National Governance Risk Measure, 25 Countries, 2004-2022</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22599">Cressie Read Power Divergence for Moment-Based Estimation: Hyperparameter and Finite Sample Behavior</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://arxiv.org/abs/2603.22805">The Costs of Early-career Disciplinary Pivots: Evidence from PhD Admissions</a>
+        </div>
+        
+      </div>
+      
+      <div class="papers-subsection">
+        <div class="calendar-label">Congenital Heart Block</div>
+        
+        <div class="rss-item">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41879307/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325154308&v=2.19.0.post6+133c1fe">Role of Hydroxychloroquine in Prevention of Congenital Heart Block in Pregnant Women With Positive Anti-Ro/SSA and/or Anti-La/SSB</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41802920/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325154308&v=2.19.0.post6+133c1fe">Skin-Limited Neonatal Lupus in an Infant Conceived by In Vitro Fertilization and Surrogate Gestation</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41742631/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325154308&v=2.19.0.post6+133c1fe">Systemic Manifestations of Neonatal Lupus in an Infant Born to an Asymptomatic Mother: A Case Report of Anemia and Transaminitis</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41721052/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325154308&v=2.19.0.post6+133c1fe">Association between maternal anti-Ro and anti-La antibody levels and congenital heart block: a 20-year cohort study</a>
+        </div>
+        
+        <div class="rss-item">
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41717678/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325154308&v=2.19.0.post6+133c1fe">Peripartum Cardiogenic Shock From Effusive-Constrictive Pericarditis Requiring VA-ECMO and Pericardiectomy</a>
+        </div>
+        
+      </div>
+      
+    </div>
+    
+
+  </div>
+</div>
+
+<div class="footer">
+  Generated at 19:43 on Wednesday, March 25, 2026. Next update in ~6 hours.
+</div>
+
+<script>
+  // Cache-bust: GitHub Pages CDN keys on query string,
+  // so a unique ?v= forces a fresh fetch on each visit.
+  if (!location.search) {
+    location.replace(location.pathname + '?v=' + Date.now());
+  }
+</script>
+</body>
+</html>
