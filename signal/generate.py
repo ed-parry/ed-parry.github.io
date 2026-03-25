@@ -339,12 +339,14 @@ def generate_briefing(config, data):
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-20250514",
-            max_tokens=300,
+            max_tokens=400,
             messages=[{
                 "role": "user",
                 "content": f"""Write a personal briefing for a daily newspaper in under 200 words.
-Two short paragraphs covering the most important or personally relevant stories.
-Conversational tone, like a knowledgeable friend. No bullet points, no headings, no preamble.
+No more than two short paragraphs covering the most important or personally relevant stories.
+Conversational tone, like a knowledgeable news anchor. No bullet points, no headings, no preamble.
+If it's the morning edition, start with, "Good morning."
+Don't explain why a story is relevant to me, assume that if it is being highlighted, the intent is obvious.
 
 Reader context:
 {user_context}
