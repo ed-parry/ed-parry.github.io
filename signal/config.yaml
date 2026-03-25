@@ -24,8 +24,8 @@ news_sources:
   - name: "NYT Europe"
     url: "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml"
     max_articles: 2
-  
-  
+
+
 wales_sources:
   - name: "BBC Wales"
     url: "http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/wales/rss.xml"
