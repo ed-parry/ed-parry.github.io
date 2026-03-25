@@ -96,14 +96,6 @@ papers_sources:
 briefing:
   enabled: true
 
-# Calendar - uses icalBuddy on macOS
-# Set to false if you don't have icalBuddy installed
-# Install with: brew install icalbuddy
-calendar:
-  enabled: true
-  # Calendars to exclude (comma-separated)
-  exclude_calendars: ""
-
 # Output
 output:
   file: "../static/signal/index.html"
