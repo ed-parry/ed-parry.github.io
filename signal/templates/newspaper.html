@@ -293,21 +293,6 @@
     font-size: 10px;
   }
 
-  /* Calendar */
-  .calendar-event {
-    padding: 4px 0;
-    border-bottom: 1px dotted #ddd;
-    font-size: 12.5px;
-    line-height: 1.4;
-  }
-
-  .event-time {
-    font-weight: 700;
-    font-size: 11px;
-    color: #666;
-    margin-right: 4px;
-  }
-
   .calendar-label {
     font-size: 11px;
     font-weight: 700;
@@ -400,7 +385,6 @@
     }
     .sidebar { order: 3; grid-column: 1; }
 
-    .agenda-section { display: none; }
 
     .lead-story h2 { font-size: 24px; }
     .lead-story .lead-image { width: 100%; height: 180px; }
@@ -579,28 +563,6 @@
 
   <!-- RIGHT: SIDEBAR -->
   <div class="sidebar">
-    <!-- Calendar -->
-    {% if calendar.today or calendar.week %}
-    <div class="sidebar-section agenda-section">
-      <div class="section-title">Agenda</div>
-      {% if calendar.today %}
-        <div class="calendar-label">Today</div>
-        {% for event in calendar.today %}
-          <div class="calendar-event"><span class="event-time">{{ event.time }}</span> {{ event.title }}</div>
-        {% endfor %}
-      {% else %}
-        <div class="calendar-label">Today</div>
-        <p class="no-items">No events today.</p>
-      {% endif %}
-
-      {% if calendar.week %}
-        <div class="calendar-label">This Week</div>
-        {% for event in calendar.week %}
-          <div class="calendar-event"><span class="event-time">{{ event.time }}</span> {{ event.title }}</div>
-        {% endfor %}
-      {% endif %}
-    </div>
-    {% endif %}
 
     <!-- Reading List -->
     {% if rss_articles %}

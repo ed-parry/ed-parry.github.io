@@ -271,128 +271,6 @@ def fetch_hacker_news(config):
     return stories
 
 
-def _strip_ansi(text):
-    """Remove ANSI escape codes from text."""
-    import re
-    return re.sub(r'\x1b\[[0-9;]*m', '', text)
-
-
-def _parse_time_duration_hours(time_str):
-    """Parse 'HH:MM - HH:MM' and return duration in hours, or None."""
-    import re
-    m = re.search(r'(\d{1,2}):(\d{2})\s*-\s*(\d{1,2}):(\d{2})', time_str)
-    if not m:
-        return None
-    start = int(m.group(1)) * 60 + int(m.group(2))
-    end = int(m.group(3)) * 60 + int(m.group(4))
-    if end < start:
-        end += 24 * 60
-    return (end - start) / 60
-
-
-def _parse_icalbuddy_output(output, exclude_titles=None):
-    """Parse icalBuddy output into structured events."""
-    import re
-    exclude_titles = [t.lower() for t in (exclude_titles or [])]
-    events = []
-    current_time = None
-    current_title = None
-
-    for line in output.strip().split("\n"):
-        line = _strip_ansi(line)
-        if not line.strip():
-            continue
-
-        # Time lines are not indented, event details are indented
-        if not line.startswith(" ") and not line.startswith("\t"):
-            if current_time and current_title:
-                events.append({"time": current_time, "title": current_title})
-            current_time = line.strip()
-            current_title = None
-        else:
-            stripped = line.strip()
-            if stripped.startswith("location:") or stripped.startswith("url:"):
-                continue
-            if current_title is None:
-                # Strip calendar name in parentheses at the end
-                stripped = re.sub(r'\s*\([^)]+\)\s*$', '', stripped)
-                current_title = stripped
-
-    if current_time and current_title:
-        events.append({"time": current_time, "title": current_title})
-
-    # Filter excluded titles
-    events = [e for e in events if e["title"].lower() not in exclude_titles]
-
-    # Deduplicate by time+title
-    seen = set()
-    unique = []
-    for e in events:
-        key = (e["time"], e["title"])
-        if key not in seen:
-            seen.add(key)
-            # If event is longer than 5 hours, treat as all-day
-            duration = _parse_time_duration_hours(e["time"])
-            if duration is not None and duration > 5:
-                # Preserve date prefix if present (e.g. "Wed 25 Mar at 08:00 - 17:00")
-                at_idx = e["time"].find(" at ")
-                if at_idx > 0:
-                    e["time"] = e["time"][:at_idx] + " — All day"
-                else:
-                    e["time"] = "All day"
-            unique.append(e)
-
-    return unique
-
-
-def fetch_calendar(config):
-    """Fetch calendar events using icalBuddy (macOS)."""
-    if not config["calendar"]["enabled"]:
-        return {"today": [], "week": []}
-
-    today_events = []
-    week_events = []
-    exclude = config["calendar"].get("exclude_calendars", "")
-
-    try:
-        # Today's events
-        cmd = ["icalBuddy", "-nrd",
-               "-ea", "-df", "%H:%M", "-tf", "%H:%M",
-               "-iep", "title,datetime",
-               "-po", "datetime,title",
-               "-b", "",
-               "eventsToday"]
-        if exclude:
-            cmd.extend(["-ec", exclude])
-
-        result = subprocess.run(cmd, capture_output=True, text=True, timeout=10)
-        if result.returncode == 0:
-            today_events = _parse_icalbuddy_output(result.stdout, exclude_titles=["Stand-up"])
-
-        # Events until end of Sunday
-        today = datetime.now()
-        days_until_sunday = (6 - today.weekday()) % 7
-        if days_until_sunday == 0:
-            days_until_sunday = 7  # If it's Sunday, show next week
-        cmd2 = ["icalBuddy", "-nrd",
-                "-ea", "-df", "%a %d %b", "-tf", "%H:%M",
-                "-iep", "title,datetime",
-                "-po", "datetime,title",
-                "-b", "",
-                f"eventsToday+{days_until_sunday}"]
-        if exclude:
-            cmd2.extend(["-ec", exclude])
-
-        result2 = subprocess.run(cmd2, capture_output=True, text=True, timeout=10)
-        if result2.returncode == 0:
-            week_events = _parse_icalbuddy_output(result2.stdout, exclude_titles=["Stand-up"])
-
-    except FileNotFoundError:
-        print("Warning: icalBuddy not found. Install with: brew install icalbuddy", file=sys.stderr)
-    except Exception as e:
-        print(f"Warning: Could not fetch calendar: {e}", file=sys.stderr)
-
-    return {"today": today_events[:8], "week": week_events[:15]}
 
 
 def fetch_rss_feeds(config):
@@ -510,7 +388,6 @@ def generate_html(config, data):
         tech=data["tech"],
         sport=data["sport"],
         hacker_news=data["hacker_news"],
-        calendar=data["calendar"],
         rss_articles=data["rss_articles"],
         papers=data["papers"],
         briefing=data["briefing"],
@@ -535,7 +412,6 @@ def main():
         "tech": fetch_section(config, "tech_sources"),
         "sport": fetch_sport(config),
         "hacker_news": fetch_hacker_news(config),
-        "calendar": fetch_calendar(config),
         "rss_articles": fetch_rss_feeds(config),
         "papers": _group_by_source(fetch_section(config, "papers_sources")),
     }
