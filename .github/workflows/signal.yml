@@ -1,0 +1,38 @@
+name: Generate Today's Signal
+
+"on":
+  schedule:
+    # 6am, 12pm, 6pm UK time (UTC during GMT, UTC-1 during BST)
+    # Using UTC: 5am, 11am, 5pm covers BST; 6am, 12pm, 6pm covers GMT
+    # Compromise: run at 05:00, 06:00, 11:00, 12:00, 17:00, 18:00 UTC
+    - cron: '0 5,6,11,12,17,18 * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r signal/requirements.txt
+
+      - name: Generate newspaper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BRIEFING_CONTEXT: ${{ secrets.BRIEFING_CONTEXT }}
+        working-directory: signal
+        run: python generate.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add static/signal/index.html
+          git diff --cached --quiet || git commit -m "Update Today's Signal - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

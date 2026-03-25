@@ -1,0 +1,109 @@
+# Personal Newspaper Configuration
+
+newspaper_name: "Today's Signal"
+tagline: ""
+
+# Weather location (Cardiff)
+weather:
+  latitude: 51.4816
+  longitude: -3.1791
+  city: "Cardiff"
+
+# News sources (RSS feeds)
+news_sources:
+  - name: "Financial Times"
+    url: "https://www.ft.com/rss/home/uk"
+    max_articles: 5
+  - name: "BBC News"
+    url: "https://feeds.bbci.co.uk/news/rss.xml"
+    max_articles: 4
+  - name: "The Economist"
+    url: "https://news.google.com/rss/search?q=site:economist.com&hl=en-GB&gl=GB"
+    max_articles: 2
+    google_news: true
+  - name: "NYT Europe"
+    url: "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml"
+    max_articles: 2
+
+
+wales_sources:
+  - name: "BBC Wales"
+    url: "http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/wales/rss.xml"
+    max_articles: 4
+
+sports_sources:
+  - name: "BBC Sport"
+    url: "https://feeds.bbci.co.uk/sport/rss.xml"
+    max_articles: 4
+  - name: "The Race"
+    url: "https://www.the-race.com/rss/"
+    max_articles: 4
+    filter_tag: "Formula 1"
+  - name: "ESPN Cricinfo"
+    url: "https://www.espncricinfo.com/rss/content/story/feeds/0.xml"
+    max_articles: 2
+
+# Science
+science_sources:
+  - name: "New Scientist"
+    url: "https://www.newscientist.com/feed/home/"
+    max_articles: 4
+  - name: "Nature"
+    url: "https://www.nature.com/nature.rss"
+    max_articles: 4
+
+# Technology (includes Hacker News)
+tech_sources:
+  - name: "The Verge"
+    url: "https://www.theverge.com/rss/index.xml"
+    max_articles: 4
+  - name: "Wired"
+    url: "https://www.wired.com/feed/rss"
+    max_articles: 4
+
+hacker_news:
+  num_stories: 8
+
+# RSS feeds for articles
+rss_feeds:
+  - name: "Derek Sivers"
+    url: "https://sive.rs/en.atom"
+  - name: "Thomasz Tunguz"
+    url: "http://tomtunguz.com/index.xml"
+  - name: "David Heinemeier Hansson"
+    url: "https://world.hey.com/dhh/feed.atom"
+  - name: "Stratechery"
+    url: "https://stratechery.com/feed"
+  - name: "Jason Fried"
+    url: "https://world.hey.com/jason/feed.atom"
+  - name: "Deep Mind"
+    url: "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/rss/"
+
+# Scientific papers
+papers_sources:
+  - name: "Computer science"
+    url: "https://rss.arxiv.org/rss/cs"
+    max_articles: 3
+  - name: "Economics"
+    url: "https://rss.arxiv.org/rss/econ"
+    max_articles: 3
+  - name: "Congenital Heart Block"
+    url: "https://pubmed.ncbi.nlm.nih.gov/rss/search/1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl/?limit=10&utm_campaign=pubmed-2&fc=20260325082923"
+    max_articles: 5
+
+# LLM Briefing - replaces agenda in sidebar
+# Set BRIEFING_CONTEXT as an environment variable or GitHub secret
+briefing:
+  enabled: true
+
+# Calendar - uses icalBuddy on macOS
+# Set to false if you don't have icalBuddy installed
+# Install with: brew install icalbuddy
+calendar:
+  enabled: true
+  # Calendars to exclude (comma-separated)
+  exclude_calendars: ""
+
+# Output
+output:
+  file: "../static/signal/index.html"
