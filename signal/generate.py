@@ -339,14 +339,12 @@ def generate_briefing(config, data):
         client = anthropic.Anthropic(api_key=api_key)
         message = client.messages.create(
             model="claude-sonnet-4-20250514",
-            max_tokens=600,
+            max_tokens=300,
             messages=[{
                 "role": "user",
-                "content": f"""You are writing a short personal briefing for a daily newspaper.
-Given the reader's context and today's content, write two or three short paragraphs
-summarising the most important, surprising, or personally relevant stories.
-Write in a natural, conversational tone — like a knowledgeable friend giving a quick overview of the day.
-No bullet points, no headings, no preamble. Just the paragraphs.
+                "content": f"""Write a personal briefing for a daily newspaper in under 200 words.
+Two short paragraphs covering the most important or personally relevant stories.
+Conversational tone, like a knowledgeable friend. No bullet points, no headings, no preamble.
 
 Reader context:
 {user_context}
@@ -369,10 +367,13 @@ def generate_html(config, data):
     now = datetime.now()
     if now.hour < 12:
         edition = "Morning Edition"
+        edition_slug = "morning"
     elif now.hour < 18:
         edition = "Afternoon Edition"
+        edition_slug = "afternoon"
     else:
         edition = "Evening Edition"
+        edition_slug = "evening"
 
     html = template.render(
         newspaper_name=config["newspaper_name"],
@@ -393,9 +394,35 @@ def generate_html(config, data):
         briefing=data["briefing"],
     )
 
-    output_path = Path(__file__).parent / config["output"]["file"]
-    output_path.write_text(html)
-    print(f"Generated {output_path}")
+    # Save edition to dated folder: static/signal/YYYY-MM-DD/morning.html
+    date_str = now.strftime("%Y-%m-%d")
+    signal_dir = Path(__file__).parent / "../static/signal"
+    edition_dir = signal_dir / date_str
+    edition_dir.mkdir(parents=True, exist_ok=True)
+
+    edition_path = edition_dir / f"{edition_slug}.html"
+    edition_path.write_text(html)
+    print(f"Generated {edition_path}")
+
+    # Update the index redirect to point to this latest edition
+    edition_url = f"/signal/{date_str}/{edition_slug}.html"
+    redirect_html = f"""<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="refresh" content="0; url={edition_url}">
+<script>window.location.replace("{edition_url}");</script>
+</head>
+<body>
+<p>Redirecting to <a href="{edition_url}">latest edition</a>...</p>
+</body>
+</html>
+"""
+    index_path = signal_dir / "index.html"
+    index_path.write_text(redirect_html)
+    print(f"Updated redirect at {index_path} → {edition_url}")
 
 
 def main():

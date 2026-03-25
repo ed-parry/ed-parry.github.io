@@ -98,6 +98,3 @@ papers_sources:
 briefing:
   enabled: true
 
-# Output
-output:
-  file: "../static/signal/index.html"
