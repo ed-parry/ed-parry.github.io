@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add static/signal/index.html
+          git add static/signal/
           git diff --cached --quiet || git commit -m "Update Today's Signal - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
