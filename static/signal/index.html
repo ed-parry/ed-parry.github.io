@@ -84,15 +84,27 @@
   .main-content {
     display: grid;
     grid-template-columns: 1fr 280px;
+    grid-template-rows: auto 1fr;
     gap: 20px;
+  }
+
+  .news-column {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  .briefing-column {
+    grid-column: 2;
+  }
+
+  .sidebar {
+    grid-column: 2;
   }
 
   /* === NEWS COLUMN === */
   .news-column {
     border-right: 1px solid #ccc;
     padding-right: 20px;
-    min-width: 0;
-    overflow: hidden;
   }
 
   .lead-story {
@@ -216,7 +228,7 @@
   }
 
   /* === SIDEBAR === */
-  .sidebar {
+  .sidebar, .briefing-column {
     font-size: 13px;
   }
 
@@ -358,6 +370,47 @@
     font-size: 12px;
   }
 
+  /* === MOBILE === */
+  @media (max-width: 768px) {
+    body { padding: 12px; font-size: 13px; }
+
+    .newspaper-name { font-size: 36px; letter-spacing: 1px; }
+    .masthead-top { font-size: 10px; }
+
+    .weather-bar {
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      padding: 8px 12px;
+      font-size: 11px;
+      justify-content: flex-start;
+    }
+
+    .main-content {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .briefing-column { order: 1; grid-column: 1; }
+    .news-column {
+      order: 2;
+      grid-column: 1;
+      grid-row: auto;
+      border-right: none;
+      padding-right: 0;
+    }
+    .sidebar { order: 3; grid-column: 1; }
+
+    .agenda-section { display: none; }
+
+    .lead-story h2 { font-size: 24px; }
+    .lead-story .lead-image { width: 100%; height: 180px; }
+    .lead-story-body { flex-direction: column; }
+
+    .news-grid { grid-template-columns: 1fr; }
+
+    .section-title { font-size: 14px; }
+  }
+
   /* Print */
   @media print {
     body { background: white; padding: 0; }
@@ -371,7 +424,7 @@
   <div class="masthead-top">
     <span>Cardiff &bull; Afternoon Edition</span>
     <span></span>
-    <span>Updated 14:28</span>
+    <span>Updated 14:53</span>
   </div>
   <h1 class="newspaper-name">Today's Signal</h1>
   <div class="masthead-top">
@@ -386,9 +439,9 @@
   
     <span><strong>Cardiff</strong></span>
     <span class="divider">|</span>
-    <span>7.9&deg;C &mdash; Light drizzle</span>
+    <span>9.0&deg;C &mdash; Partly cloudy</span>
     <span class="divider">|</span>
-    <span>H: 8.6&deg; / L: 4.4&deg;</span>
+    <span>H: 9.0&deg; / L: 4.3&deg;</span>
     <span class="divider">|</span>
     <span>Rain: 65%</span>
     <span class="divider">|</span>
@@ -404,12 +457,12 @@
     
       <!-- Lead story -->
       <div class="lead-story">
-        <h2><a href="https://www.ft.com/content/6e0b65e1-df3c-41cc-aec1-628dd925f94a">Nato chief riles Europe by backing Trump’s war in Iran</a></h2>
-        <div class="lead-published">Financial Times &middot; Wed 25 Mar, 05:00</div>
+        <h2><a href="https://www.ft.com/content/108ece44-f262-4b90-b2ad-742add22efcf">Iran’s military leaders dismiss Trump’s deal claims</a></h2>
+        <div class="lead-published">Financial Times &middot; Wed 25 Mar, 13:06</div>
         <div class="lead-story-body">
-          <div class="summary">European capitals irritated by Mark Rutte’s suggestion they will join US armada to Strait of Hormuz</div>
+          <div class="summary">Military command says it will not ‘come to terms’ with US after Washington presents 15-point plan to end war</div>
           
-            <img class="lead-image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fb5c91097-93d4-4b21-8e4e-07179f4aefa9.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down" alt="">
+            <img class="lead-image" src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2F61021f84-8b3b-45b6-9416-94120e4997d6.jpg?source=next-home-page&dpr=2&width=580&fit=scale-down" alt="">
           
         </div>
       </div>
@@ -428,8 +481,8 @@
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">Financial Times</div>
-            <h3><a href="https://www.ft.com/content/108ece44-f262-4b90-b2ad-742add22efcf">Iran’s military leaders dismiss Trump’s deal claims</a></h3>
-            <div class="summary">Military command says it will not ‘come to terms’ with US after Washington presents 15-point plan to end war</div>
+            <h3><a href="https://www.ft.com/content/6e0b65e1-df3c-41cc-aec1-628dd925f94a">Nato chief riles Europe by backing Trump’s war in Iran</a></h3>
+            <div class="summary">European capitals irritated by Mark Rutte’s suggestion they will join US armada to Strait of Hormuz</div>
           </div>
         </div>
         
@@ -444,8 +497,8 @@
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">Financial Times</div>
-            <h3><a href="https://www.ft.com/content/dec09230-e2bc-44d4-be5c-1b53fe4d0284">Why the Bank of England will not raise rates this year</a></h3>
-            <div class="summary">The UK’s central bank is making a Maradona-like feint with hawkish monetary policy signals</div>
+            <h3><a href="https://www.ft.com/content/a2dbcb98-1e95-4070-a5c8-fc7604477904">Dane who lit up outside White House ‘real winner’ of elections</a></h3>
+            <div class="summary">Foreign minister Lars Løkke Rasmussen emerges as kingmaker in any potential coalition government</div>
           </div>
         </div>
         
@@ -590,9 +643,9 @@
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">BBC Sport</div>
-            <h3><a href="https://www.bbc.com/news/articles/cjr920e3e1no?at_medium=RSS&at_campaign=rss">Man who racially abused England defender Carter sentenced</a></h3>
-            <div class="summary">Nigel Dewale, 60, admitted sending abusive messages over social media during the 2025 Women's Euros.</div>
+            <div class="source">BBC Sport &middot; Football</div>
+            <h3><a href="https://www.bbc.com/sport/football/articles/cy01n951evwo?at_medium=RSS&at_campaign=rss">Liverpool & Wales great Toshack diagnosed with dementia</a></h3>
+            <div class="summary">One of the icons of Welsh and Liverpool football has been diagnosed with dementia, his son Cameron Toshack confirms.</div>
           </div>
         </div>
         
@@ -631,16 +684,16 @@
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">ESPN Cricinfo</div>
-            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529152.html?ex_cid=OTC-RSS">A bet, a bat, and a breakout: The making of Esterhuizen's dream debut series</a></h3>
-            <div class="summary">Backed by his captain Maharaj, the 24-year old anchored SA's turnaround and emerged as the defining batter of the series</div>
+            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529156.html?ex_cid=OTC-RSS">Khawaja replaces Laurie Evans for Rawalpindi Pindiz</a></h3>
+            <div class="summary">Pindiz had also recently announced McConchie as a replacement for Jake Fraser-McGurk for the upcoming PSL</div>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">ESPN Cricinfo</div>
-            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529132.html?ex_cid=OTC-RSS">Esterhuizen, bowlers lead South Africa to 3-2 series win</a></h3>
-            <div class="summary">Esterhuizen hit his second consecutive fifty before South Africa's bowlers ensured New Zealand never threatened in the chase</div>
+            <h3><a href="https://www.espncricinfo.com/ci/content/story/1529152.html?ex_cid=OTC-RSS">A bet, a bat, and a breakout: The making of Esterhuizen's dream debut series</a></h3>
+            <div class="summary">Backed by his captain Maharaj, the 24-year old anchored SA's turnaround and emerged as the defining batter of the series</div>
           </div>
         </div>
         
@@ -657,6 +710,22 @@
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2520535-ancient-elephant-bones-reveal-vivid-details-of-a-neanderthal-hunt/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Ancient elephant bones reveal vivid details of a Neanderthal hunt</a></h3>
+            <div class="summary">Researchers have re-analysed a set of elephant bones and a wooden spear found in Germany in 1948, which provide...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
+            <h3><a href="https://www.newscientist.com/article/2519896-the-selfish-gene-still-one-of-the-most-thrilling-evolution-books-ever/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">The Selfish Gene: Still one of the most thrilling evolution books ever</a></h3>
+            <div class="summary">Fifty years ago, Richard Dawkins shared an irresistible scientific metaphor with the world that modernised and...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">New Scientist</div>
             <h3><a href="https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Cancer-causing chemical found to be leaking from gas cookers</a></h3>
             <div class="summary">One in 10 homes tested in the UK, Italy and the Netherlands have dangerous levels of benzene because of slow leaks...</div>
           </div>
@@ -667,22 +736,6 @@
             <div class="source">New Scientist</div>
             <h3><a href="https://www.newscientist.com/article/2520503-earth-may-have-formed-from-two-separate-rings-around-the-sun/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Earth may have formed from two separate rings around the sun</a></h3>
             <div class="summary">Our solar system’s rocky planets – Mercury, Venus, Earth and Mars – may have formed from two rings around the young...</div>
-          </div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-item-text">
-            <div class="source">New Scientist</div>
-            <h3><a href="https://www.newscientist.com/article/2520688-cystitis-or-tooth-decay-could-trigger-dementia-just-a-few-years-later/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">Cystitis or tooth decay could trigger dementia just a few years later</a></h3>
-            <div class="summary">Infections are increasingly being linked to a higher risk of dementia. In the latest research, scientists have found...</div>
-          </div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-item-text">
-            <div class="source">New Scientist</div>
-            <h3><a href="https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home">The shocking fossils that show T. rex wasn't the king of the dinosaurs</a></h3>
-            <div class="summary">We've always thought that Tyrannosaurus rex was an unchallenged apex predator during the dying days of the...</div>
           </div>
         </div>
         
@@ -731,6 +784,22 @@
         <div class="news-item">
           <div class="news-item-text">
             <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/policy/900340/trump-tech-panel-mark-zuckerberg-jensen-huang">Mark Zuckerberg and Jensen Huang are part of Trump’s new ‘tech panel’</a></h3>
+            <div class="summary">Meta CEO Mark Zuckerberg, Oracle CEO Larry Ellison, Nvidia CEO Jensen Huang, and Google co-founder Sergey Brin will...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
+            <h3><a href="https://www.theverge.com/gadgets/897580/amazon-big-spring-sale-2026-deals-news">Amazon&#8217;s Big Spring Sale 2026: all of the latest deals</a></h3>
+            <div class="summary">If you’re looking for the best time to get a deal this spring, it might very well be during Amazon’s Big Spring...</div>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">The Verge</div>
             <h3><a href="https://www.theverge.com/tech/900270/ring-4k-battery-powered-video-doorbell-ai-price-release-date-specs">Ring finally brings 4K video to its battery-powered doorbell camera</a></h3>
             <div class="summary">Ring has announced its first battery-powered 2K and 4K doorbell cameras. The Ring Battery Video Doorbell Pro 2nd Gen...</div>
           </div>
@@ -741,22 +810,6 @@
             <div class="source">The Verge</div>
             <h3><a href="https://www.theverge.com/gadgets/899433/keychron-mechanical-keyboards-amazon-big-spring-sale-2026-deal">Keychron’s mechanical keyboards are up to 60 percent off</a></h3>
             <div class="summary">Keychron makes some of the best mechanical keyboards available, whether you’re something of an enthusiast who...</div>
-          </div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-item-text">
-            <div class="source">The Verge</div>
-            <h3><a href="https://www.theverge.com/tech/900284/apple-ios-26-4-uk-age-verification">Apple’s iOS 26.4 update adds age verification in the UK</a></h3>
-            <div class="summary">Apple now requires users in the UK to verify their age with the launch of iOS 26.4. In a support page on Apple's...</div>
-          </div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-item-text">
-            <div class="source">The Verge</div>
-            <h3><a href="https://www.theverge.com/gadgets/899580/best-amazon-big-spring-sale-2026-deals">The best deals we’ve found from Amazon’s Big Spring Sale (so far)</a></h3>
-            <div class="summary">Amazon loves to manufacture an event. March is historically a dry spell for deals; however, with Amazon’s third...</div>
           </div>
         </div>
         
@@ -795,57 +848,57 @@
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 97 pts</div>
+            <div class="source">Hacker News &middot; 109 pts</div>
+            <h3><a href="https://andregarzia.com/2026/03/apple-just-lost-me.html">Apple Just Lost Me</a></h3>
+          </div>
+        </div>
+        
+        <div class="news-item">
+          <div class="news-item-text">
+            <div class="source">Hacker News &middot; 117 pts</div>
             <h3><a href="https://ente.com/blog/ensu/">Local LLM App by Ente</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 305 pts</div>
+            <div class="source">Hacker News &middot; 326 pts</div>
             <h3><a href="https://www.bbc.com/news/articles/cql75dn07n2o">Meta told to pay $375M for misleading users over child safety</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 110 pts</div>
+            <div class="source">Hacker News &middot; 143 pts</div>
             <h3><a href="https://rpastro.square.site/s/stories/phm">My Astrophotography in the Movie Project Hail Mary</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 300 pts</div>
+            <div class="source">Hacker News &middot; 312 pts</div>
             <h3><a href="https://research.google/blog/turboquant-redefining-ai-efficiency-with-extreme-compression/">TurboQuant: Redefining AI efficiency with extreme compression</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 235 pts</div>
-            <h3><a href="https://v-os.dev">VitruvianOS – Desktop Linux Inspired by the BeOS</a></h3>
-          </div>
-        </div>
-        
-        <div class="news-item">
-          <div class="news-item-text">
-            <div class="source">Hacker News &middot; 877 pts</div>
+            <div class="source">Hacker News &middot; 892 pts</div>
             <h3><a href="https://twitter.com/soraofficialapp/status/2036532795984715896">Goodbye to Sora</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 390 pts</div>
-            <h3><a href="https://flighty.com/airports">Flighty Airports</a></h3>
+            <div class="source">Hacker News &middot; 243 pts</div>
+            <h3><a href="https://v-os.dev">VitruvianOS – Desktop Linux Inspired by the BeOS</a></h3>
           </div>
         </div>
         
         <div class="news-item">
           <div class="news-item-text">
-            <div class="source">Hacker News &middot; 166 pts</div>
-            <h3><a href="https://tildeweb.nl/~michiel/httpxyz.html">Why I forked httpx</a></h3>
+            <div class="source">Hacker News &middot; 406 pts</div>
+            <h3><a href="https://flighty.com/airports">Flighty Airports</a></h3>
           </div>
         </div>
         
@@ -855,21 +908,55 @@
 
   </div>
 
+  <!-- BRIEFING (own grid item for mobile reordering) -->
+  
+
   <!-- RIGHT: SIDEBAR -->
   <div class="sidebar">
-    <!-- Briefing -->
-    
-    <div class="sidebar-section">
-      <div class="section-title">The Briefing</div>
-      <div class="briefing-content">The big news today is Matt Brittin, Google's former European chief, taking over as BBC Director General at what he calls "a moment of real risk, yet also real opportunity." Given your tech background, this is fascinating - it's the first time someone with deep digital platform experience will be running the BBC, which could signal major shifts in how the corporation approaches streaming, AI integration, and digital transformation. This appointment comes as traditional media grapples with tech disruption, so Brittin's Google experience with YouTube and digital advertising could be game-changing for the BBC's future strategy.
-
-On the monetary policy front, there's an interesting piece suggesting the Bank of England is essentially bluffing with its hawkish signals and won't actually raise rates this year - described as a "Maradona-like feint." This matters for your business since interest rates directly affect consumer spending on discretionary items like print-on-demand products, and if the BoE maintains lower rates, it could support continued consumer demand in the e-commerce space.
-
-There are several important medical papers on congenital heart block that caught my attention for you, particularly a significant 20-year cohort study examining the association between maternal anti-Ro and anti-La antibody levels and congenital heart block development. The research provides new insights into risk assessment and monitoring, which could be relevant for ongoing care considerations. Additionally, there's promising research on conduction system pacing techniques for heart block patients, suggesting continued advances in treatment options.</div>
-    </div>
-    
-
     <!-- Calendar -->
+    
+    <div class="sidebar-section agenda-section">
+      <div class="section-title">Agenda</div>
+      
+        <div class="calendar-label">Today</div>
+        
+          <div class="calendar-event"><span class="event-time">All day</span> Owen nursery</div>
+        
+          <div class="calendar-event"><span class="event-time">10:00 - 11:00</span> Ops leadership catch-up</div>
+        
+          <div class="calendar-event"><span class="event-time">11:00 - 12:00</span> Kate / Ed</div>
+        
+      
+
+      
+        <div class="calendar-label">This Week</div>
+        
+          <div class="calendar-event"><span class="event-time">Wed 25 Mar — All day</span> Owen nursery</div>
+        
+          <div class="calendar-event"><span class="event-time">Wed 25 Mar at 10:00 - 11:00</span> Ops leadership catch-up</div>
+        
+          <div class="calendar-event"><span class="event-time">Wed 25 Mar at 11:00 - 12:00</span> Kate / Ed</div>
+        
+          <div class="calendar-event"><span class="event-time">Thu 26 Mar at 09:30 - 10:00</span> GoodMood Catch Up</div>
+        
+          <div class="calendar-event"><span class="event-time">Thu 26 Mar at 09:30 - 10:00</span> Moff / Ed</div>
+        
+          <div class="calendar-event"><span class="event-time">Thu 26 Mar at 14:00 - 15:00</span> Prodigi All-Hands</div>
+        
+          <div class="calendar-event"><span class="event-time">Fri 27 Mar at 02:30 - 03:30</span> 🏎 FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 - Practice 1</div>
+        
+          <div class="calendar-event"><span class="event-time">Fri 27 Mar at 06:00 - 07:00</span> 🏎 FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 - Practice 2</div>
+        
+          <div class="calendar-event"><span class="event-time">Fri 27 Mar at 10:00 - 10:30</span> Ed Old chinwag</div>
+        
+          <div class="calendar-event"><span class="event-time">Sat 28 Mar at 02:30 - 03:30</span> 🏎 FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 - Practice 3</div>
+        
+          <div class="calendar-event"><span class="event-time">Sat 28 Mar at 06:00 - 07:00</span> ⏱️ FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 - Qualifying</div>
+        
+          <div class="calendar-event"><span class="event-time">Sun 29 Mar at 06:00 - 08:00</span> 🏁 FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026 - Race</div>
+        
+      
+    </div>
     
 
     <!-- Reading List -->
@@ -929,23 +1016,23 @@ There are several important medical papers on congenital heart block that caught
         <div class="calendar-label">Congenital Heart Block</div>
         
         <div class="rss-item">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/41802920/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325102821&v=2.19.0.post6+133c1fe">Skin-Limited Neonatal Lupus in an Infant Conceived by In Vitro Fertilization and Surrogate Gestation</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41802920/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325105352&v=2.19.0.post6+133c1fe">Skin-Limited Neonatal Lupus in an Infant Conceived by In Vitro Fertilization and Surrogate Gestation</a>
         </div>
         
         <div class="rss-item">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/41742631/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325102821&v=2.19.0.post6+133c1fe">Systemic Manifestations of Neonatal Lupus in an Infant Born to an Asymptomatic Mother: A Case Report of Anemia and Transaminitis</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41742631/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325105352&v=2.19.0.post6+133c1fe">Systemic Manifestations of Neonatal Lupus in an Infant Born to an Asymptomatic Mother: A Case Report of Anemia and Transaminitis</a>
         </div>
         
         <div class="rss-item">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/41721052/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325102821&v=2.19.0.post6+133c1fe">Association between maternal anti-Ro and anti-La antibody levels and congenital heart block: a 20-year cohort study</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41721052/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325105352&v=2.19.0.post6+133c1fe">Association between maternal anti-Ro and anti-La antibody levels and congenital heart block: a 20-year cohort study</a>
         </div>
         
         <div class="rss-item">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/41717678/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325102821&v=2.19.0.post6+133c1fe">Peripartum Cardiogenic Shock From Effusive-Constrictive Pericarditis Requiring VA-ECMO and Pericardiectomy</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41717678/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325105352&v=2.19.0.post6+133c1fe">Peripartum Cardiogenic Shock From Effusive-Constrictive Pericarditis Requiring VA-ECMO and Pericardiectomy</a>
         </div>
         
         <div class="rss-item">
-          <a href="https://pubmed.ncbi.nlm.nih.gov/41717125/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325102821&v=2.19.0.post6+133c1fe">Conduction system pacing in a congenital heart block patient with epicardial left ventricular pacing heart failure</a>
+          <a href="https://pubmed.ncbi.nlm.nih.gov/41717125/?utm_source=Other&utm_medium=rss&utm_campaign=pubmed-2&utm_content=1j_AM05Yvo4cAZsGJ92JZIilrSNGDUnBZLXq6Y17AWk3hVmsyl&fc=20260325082923&ff=20260325105352&v=2.19.0.post6+133c1fe">Conduction system pacing in a congenital heart block patient with epicardial left ventricular pacing heart failure</a>
         </div>
         
       </div>
@@ -957,8 +1044,15 @@ There are several important medical papers on congenital heart block that caught
 </div>
 
 <div class="footer">
-  Generated at 14:28 on Wednesday, March 25, 2026. Next update in ~6 hours.
+  Generated at 14:53 on Wednesday, March 25, 2026. Next update in ~6 hours.
 </div>
 
+<script>
+  // Cache-bust: GitHub Pages CDN keys on query string,
+  // so a unique ?v= forces a fresh fetch on each visit.
+  if (!location.search) {
+    location.replace(location.pathname + '?v=' + Date.now());
+  }
+</script>
 </body>
 </html>

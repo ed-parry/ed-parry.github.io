@@ -84,15 +84,27 @@
   .main-content {
     display: grid;
     grid-template-columns: 1fr 280px;
+    grid-template-rows: auto 1fr;
     gap: 20px;
+  }
+
+  .news-column {
+    grid-row: 1 / -1;
+    grid-column: 1;
+  }
+
+  .briefing-column {
+    grid-column: 2;
+  }
+
+  .sidebar {
+    grid-column: 2;
   }
 
   /* === NEWS COLUMN === */
   .news-column {
     border-right: 1px solid #ccc;
     padding-right: 20px;
-    min-width: 0;
-    overflow: hidden;
   }
 
   .lead-story {
@@ -216,7 +228,7 @@
   }
 
   /* === SIDEBAR === */
-  .sidebar {
+  .sidebar, .briefing-column {
     font-size: 13px;
   }
 
@@ -356,6 +368,47 @@
     font-style: italic;
     color: #999;
     font-size: 12px;
+  }
+
+  /* === MOBILE === */
+  @media (max-width: 768px) {
+    body { padding: 12px; font-size: 13px; }
+
+    .newspaper-name { font-size: 36px; letter-spacing: 1px; }
+    .masthead-top { font-size: 10px; }
+
+    .weather-bar {
+      flex-wrap: wrap;
+      gap: 6px 12px;
+      padding: 8px 12px;
+      font-size: 11px;
+      justify-content: flex-start;
+    }
+
+    .main-content {
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+
+    .briefing-column { order: 1; grid-column: 1; }
+    .news-column {
+      order: 2;
+      grid-column: 1;
+      grid-row: auto;
+      border-right: none;
+      padding-right: 0;
+    }
+    .sidebar { order: 3; grid-column: 1; }
+
+    .agenda-section { display: none; }
+
+    .lead-story h2 { font-size: 24px; }
+    .lead-story .lead-image { width: 100%; height: 180px; }
+    .lead-story-body { flex-direction: column; }
+
+    .news-grid { grid-template-columns: 1fr; }
+
+    .section-title { font-size: 14px; }
   }
 
   /* Print */
@@ -514,19 +567,21 @@
 
   </div>
 
-  <!-- RIGHT: SIDEBAR -->
-  <div class="sidebar">
-    <!-- Briefing -->
-    {% if briefing %}
+  <!-- BRIEFING (own grid item for mobile reordering) -->
+  {% if briefing %}
+  <div class="briefing-column">
     <div class="sidebar-section">
       <div class="section-title">The Briefing</div>
       <div class="briefing-content">{{ briefing }}</div>
     </div>
-    {% endif %}
+  </div>
+  {% endif %}
 
+  <!-- RIGHT: SIDEBAR -->
+  <div class="sidebar">
     <!-- Calendar -->
     {% if calendar.today or calendar.week %}
-    <div class="sidebar-section">
+    <div class="sidebar-section agenda-section">
       <div class="section-title">Agenda</div>
       {% if calendar.today %}
         <div class="calendar-label">Today</div>
@@ -585,5 +640,12 @@
   Generated at {{ generated_at }} on {{ date }}. Next update in ~6 hours.
 </div>
 
+<script>
+  // Cache-bust: GitHub Pages CDN keys on query string,
+  // so a unique ?v= forces a fresh fetch on each visit.
+  if (!location.search) {
+    location.replace(location.pathname + '?v=' + Date.now());
+  }
+</script>
 </body>
 </html>
