@@ -599,15 +599,8 @@
 </div>
 
 <div class="footer">
-  Generated at {{ generated_at }} on {{ date }}. Next update in ~6 hours.
+  Last updated at {{ generated_at }} on {{ date }}. Published three times daily.
 </div>
 
-<script>
-  // Cache-bust: GitHub Pages CDN keys on query string,
-  // so a unique ?v= forces a fresh fetch on each visit.
-  if (!location.search) {
-    location.replace(location.pathname + '?v=' + Date.now());
-  }
-</script>
 </body>
 </html>
