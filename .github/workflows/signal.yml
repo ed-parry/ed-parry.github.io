@@ -1,12 +1,12 @@
 name: Generate Today's Signal
 
-on:
+"on":
   schedule:
     # 6am, 12pm, 6pm UK time (UTC during GMT, UTC-1 during BST)
     # Using UTC: 5am, 11am, 5pm covers BST; 6am, 12pm, 6pm covers GMT
     # Compromise: run at 05:00, 06:00, 11:00, 12:00, 17:00, 18:00 UTC
     - cron: '0 5,6,11,12,17,18 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   generate:
