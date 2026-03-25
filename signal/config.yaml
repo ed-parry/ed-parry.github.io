@@ -1,6 +1,6 @@
 # Personal Newspaper Configuration
 
-newspaper_name: "Today's Signal"
+newspaper_name: "Today's signal"
 tagline: ""
 
 # Weather location (Cardiff)
@@ -24,7 +24,6 @@ news_sources:
   - name: "NYT Europe"
     url: "https://rss.nytimes.com/services/xml/rss/nyt/Europe.xml"
     max_articles: 2
-
 
 wales_sources:
   - name: "BBC Wales"
@@ -57,12 +56,15 @@ tech_sources:
   - name: "The Verge"
     url: "https://www.theverge.com/rss/index.xml"
     max_articles: 4
+  - name: "Techcrunch"
+    url: "https://techcrunch.com/feed/"
+    max_articles: 4
   - name: "Wired"
     url: "https://www.wired.com/feed/rss"
-    max_articles: 4
+    max_articles: 2
 
 hacker_news:
-  num_stories: 8
+  num_stories: 6
 
 # RSS feeds for articles
 rss_feeds:
