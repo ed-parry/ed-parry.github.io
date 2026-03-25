@@ -1,6 +1,6 @@
 name: PR Build Check
 
-on:
+"on":
   pull_request:
     branches:
       - main
